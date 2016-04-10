@@ -1,0 +1,98 @@
+﻿<?php require_once("function.php");
+session_start();
+ob_start();
+if(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '1')
+       { header("location: #"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '2')
+       { header("location: discount_search_patient.php"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '3')
+       { header("location: fd_search.php"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '4')
+       { header("location: sample_collection_table.php"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '22')
+       { header("location: MT_test_list.php"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '6')
+       { header("location: #"); }
+elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '7')
+       { header("location: #"); }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diagnosoft : Login </title>
+  <?php include("css_bootstrap_header.php"); ?>
+  </head>
+<body>
+<header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#" style="color:#FFF;"><img src="images/logo.png" style="width:60px; height: 47px;" alt="logo"></img> Labyek : Login</a>
+    </div>
+  </div>
+</header>
+<div class="container">
+
+<?php
+if(isset($_GET['submit']))
+ {
+	 $username = mysqli_real_escape_string($con, $_GET['username']);
+ 	 $password = mysqli_real_escape_string($con, $_GET['password']);
+	 define('DIRECT', true);
+	 validateUsername($con, $username, $password);
+	 }
+?>
+
+
+
+  <div class="row">
+  <div class="col-lg-5 col-lg-offset-4 login-block">
+
+ <!----------------------------- Start - ERROR/SUCCESS MSG------------------------------------>
+ <?php if(isset($_GET['errmsg']) && $_GET['errmsg'] !== ''){
+			?>
+    <div class="alert alert-danger alert-error">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong><i class="fa fa-times-circle fa fa-lg fa-fw"></i> </strong> <?php echo error_message($con, $_GET['errmsg']); ?>
+    </div>
+ <?php }?>
+ <!----------------------------- End ERROR/SUCCESS MSG------------------------------------>
+
+ <?php if(isset($_GET['smsg']) && $_GET['smsg'] != ''){ ?>
+    <div class="alert alert-success alert-error">
+        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <strong><i class="fa fa-check-circle fa-lg fa-fw"></i> </strong> <?php echo success_message($con, $_GET['smsg']); ?>
+    </div>
+ <?php }?>
+
+  <div class=""><h4 align="center" style="color:#3366ff;">Login</h4><hr /></div>
+
+  <form class="form-horizontal" action="">
+  <div class="form-group">
+    <label for="inputEmail" class="col-lg-4 control-label">Username :</label>
+    <div class="col-lg-6">
+      <input type="text" class="form-control" id="inputEmail" name = username placeholder="Username" maxlength="20" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword" class="col-lg-4 control-label">Password :</label>
+    <div class="col-lg-6">
+      <input type="password" class="form-control" id="inputPassword" name="password" placeholder="Password" maxlength="20" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-lg-5 col-lg-offset-4">
+      <button type="submit" class="btn btn-primary" name="submit">Sign in</button>
+    </div>
+  </div>
+</form>
+
+<div class="clearfix"></div>
+</div>
+
+<?php include("footer.php"); ob_flush();?>
+<?php include("script_bootstrap.php"); ?>
+
+
+  </body>
+</html>

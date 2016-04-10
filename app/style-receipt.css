@@ -1,0 +1,187 @@
+﻿/* Space out content a bit */
+body {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.row {
+	margin-left:0px;
+}
+/* Custom page header */
+.header {
+  border-bottom: solid 2px #6289C4;
+
+}
+
+.solid_line2 {
+  border-bottom: solid 2px #6289C4;
+}
+
+.solid_border1right {
+  border-bottom: solid 1px #6289C4; border-right: solid 1px #6289C4;
+}
+
+.border_bottom_solid1 {
+  border-bottom: solid 1px #6289C4;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.esc-r-header-logo {
+	width:55px; height:55px; padding-right:15px;
+}
+
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom:0px;
+}
+
+.header h5 {
+  margin-top: 0;
+  margin-bottom: -1px;
+  padding-bottom:0px;
+}
+.esc-r-haddress {
+	font-size:14px; font-weight:bold;
+}
+
+/* Custom page footer */
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+.esc-r-name, .esc-r-add {
+	width:60%;
+}
+/*.esc-r-age, .esc-r-sex {
+	width:20%;
+}*/
+.esc-r-contact2 {
+	width:40%;
+}
+
+.esc-60 {
+	width:60%;
+}
+.esc-20 {
+	width:20%;
+}
+.esc-30 {
+	width:20%;
+}
+.esc-50 {
+	width:20%;
+}
+.esc-40 {
+	width:40%;
+}
+
+/* Price Table */
+.table-bordered th, .table-bordered td {
+	border-top-color:#333333;
+	border-bottom-color:#333333;
+	border-right-color:#333333;
+	border-left: 1px solid #333333;
+}
+.table-bordered{
+	border-color:#333333;
+
+}
+/*.table th, .table td {
+    border-top: 1px solid #333333;
+}*/
+
+.reciever-sign {
+	padding-top:30px; padding-bottom:10px; width:30%; text-align:center; font-style:italic;
+}
+.esc-r-footer {
+	border-top:4px groove #333333; text-align:left; font-style:italic; padding-bottom:10px !important;
+}
+
+
+/* Bottom Patient Details */
+.esc-r-bottom-container {
+	margin-top:20px; padding-top:30px; border-top: 1px #000000 dashed;
+}
+.esc-r-bot-registration, .esc-r-bot-name {
+	width:34%;
+}
+.esc-r-bot-date, .esc-r-bot-time, .esc-r-bot-Address, .esc-r-bot-sex{
+	width:33%;
+}
+.esc-r-bot-phistory, .esc-r-bot-premark {
+	width:50%;
+}
+
+.italic_font{ font-style:italic !important;}
+/*---Container backgound image---- */
+
+.watermark {
+    background:url(images/bookmarklogo.png) ;
+	background-repeat: no-repeat;
+    background-size: auto 210px;
+    background-position: 50% 18%;
+	background-attachment: scroll;
+
+ }
+
+ .watermark2 {
+    background:url(images/bookmarklogo.png) ;
+	background-repeat: no-repeat;
+    background-size: auto 220px;
+    background-position: center center;
+	background-attachment: scroll;
+
+ }
+
+.watermark3 {
+    background:url(images/bookmarklogo.png) ;
+	background-repeat: no-repeat;
+    background-size: auto 220px;
+    background-position: 50% 20%;
+	background-attachment: scroll;
+
+ }
+
+#gray{ color: #CACACA; }
+
+
+.padding_gap{padding-bottom:10px !important;}
+
+.padding_upDown5{padding-bottom:5px !important;padding-top:5px !important;}
+.padding_upDown8{padding-bottom:8px !important;padding-top:8px !important;}
+.padding_upDown10{padding-bottom:10px !important;padding-top:10px !important;}
+.padding_down20{padding-bottom:20px !important;}
+.padding_top10{padding-top:10px !important;}
+.padding_top20{padding-top:20px !important;}
+.padding_top40{padding-top:40px !important;}
+
+.padding_left5{padding-left:5px !important;}
+.padding_left10{padding-left:10px !important;}
+.padding_left20{padding-left:20px !important;}
+.padding_left30{padding-left:30px !important;}
+.padding_left40{padding-left:40px !important;}
+.padding_left50{padding-left:50px !important;}
+.padding_left60{padding-left:60px !important;}
+.padding_left70{padding-left:70px !important;}
+.padding_left90{padding-left:90px !important;}
+.padding_left113{padding-left:113px !important;}
+
+.padding_right5{padding-right:5px !important;}
+.padding_right10{padding-right:10px !important;}
+.padding_right20{padding-right:20px !important;}
+.padding_right30{padding-right:30px !important;}
+.padding_right40{padding-right:40px !important;}
+.padding_right42{padding-right:42px !important;}
+.padding_right50{padding-right:50px !important;}
+.padding_right60{padding-right:60px !important;}
+.padding_right70{padding-right:70px !important;}
+.padding_right80{padding-right:80px !important;}
+.padding_right90{padding-right:90px !important;}
+.padding_right113{padding-right:113px !important;}
+.padding_right230{padding-right:230px !important;}
+
+.margin_right40{margin-right:40px !important;}
+.line_height2{line-height: 2 !important;}
+.line_height1522{line-height: 1.522 !important;}

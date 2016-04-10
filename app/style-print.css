@@ -1,0 +1,103 @@
+﻿@media print {
+  *{
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+	/*font-size:13pt !important;
+line-height:1.2;*/
+	
+  }
+ 
+ tr, img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+ }
+  @page  
+{ 
+    
+    /* this affects the margin in the printer settings */ 
+    margin: 1cm 1.4cm !important;
+	
+} 
+body{   
+		font-size:12pt !important;
+		line-height:1.3 !important;
+	}
+.container{ margin-top:0px;}
+h2 {
+font-size: 24pt;
+}
+
+h4 {
+font-size: 14pt;
+margin-top: 25px;
+}
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+ 
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          /*box-sizing: border-box;*/
+		  -webkit-print-color-adjust:exact; /*--chrom fixed background issue*/
+		  -webkit-text-stroke: 1px transparent; /*--chrom font issue*/
+		 }
+
+.watermark { 
+    background:url(images/bookmarklogo.png) !important;
+	background-repeat: no-repeat !important;
+    background-size: auto 210px !important;
+    background-position: 50% 18% !important;
+	background-attachment: scroll !important; 
+ }
+ 
+ .watermark2 { 
+    background:url(images/bookmarklogo.png) !important;
+	background-repeat: no-repeat !important;
+    background-size: auto 220px !important;
+    background-position: center center !important;
+	background-attachment: scroll !important; 
+ }
+
+.watermark3 { 
+    background:url(images/bookmarklogo.png) ;
+	background-repeat: no-repeat;
+    background-size: auto 220px;
+    background-position: 50% 20%;
+	background-attachment: scroll;
+   
+ }
+
+.table-striped tbody > tr:nth-child(2n+1) > td, .table-striped tbody > tr:nth-child(2n+1) > th {
+    background-color: #EBEBEB !important;
+}
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #333333 !important;
+  
+}
+/*.esc-pateint-details{page-break-before:avoid;}*/
+#print_test{ page-break-inside:avoid; page-break-before:always;}
+
+.blank{
+	
+	display:none !important;
+	visibility:hidden !important;}
+.header {
+  margin: 0px 0px 10px 0px;
+
+}
+}

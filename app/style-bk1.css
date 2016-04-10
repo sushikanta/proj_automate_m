@@ -1,0 +1,313 @@
+﻿body { padding-top: 50px; width:100%; background-color:#ffffff;}
+.clear {
+	clear:both;
+}
+.navbar {
+	height:50px; background-color:#1B1B1B; width:100%;
+}
+.navbar-brand {
+	width:330px; text-align:left; margin-top:5px; color:#FFFFFF; padding:2px 0px 2px 17px;
+}
+.login-block {margin-top:6%; margin-bottom:5.7%; margin-left:30%; margin-right:30%; padding:23px 20px; background: #ffffff; font-size:14px; border:1px #DDDDDD solid; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.side-bar {
+	margin:2% 0 1% 1%; width:20%; position:fixed; top:36px; float:left;
+}
+.nav-pills > li> a:hover {
+	background-color:#CCCCCC;
+}
+.page-content {
+	width:100%;
+	height:auto;
+	margin:0px;
+	padding:0px 0px;
+	float:right;
+
+}
+.page-title {
+    font-size: 16px;
+	font-weight:bold;
+    height: auto;
+    margin: 10px 0 10px 0;
+    padding: 0;
+  	/*border-bottom:1px #333333 solid;*/
+}
+.inv-main {
+	height:50%; padding:23px 0px;;  background-color:#FFFFFF; /*overflow:scroll;*/
+}
+.footer {
+	height:25px; padding:6px 23px 6px 33px; background-color: #1B1B1B; font-size:11px; width:100%;
+}
+.footertxt {
+	color:#FFFFFF;
+}
+.head-left {
+	width:55%; float:left; margin-left:60px;
+}
+.head-left .navbar-nav li a {
+	color:#090;
+}
+.head-left .navbar-nav li a:hover {
+	color: #fff;
+}
+.welcome-user{
+	display: block;
+	padding: 5px 0px;
+    position: relative;
+	
+	
+}
+.welcome-user .dropdown a:focus, .welcome-user .dropdown a:hover {
+	background-color:transparent;
+}
+.welcome-user  a.dropdown-toggle {
+	color:#F2FFFF;
+}
+
+
+/* menu test*/
+.bs-docs-sidenav {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    margin: 30px 0 0;
+    padding: 0;
+    width: 18%;
+}
+.bs-docs-sidenav > li > a {
+    border: 1px solid #E5E5E5;
+    /*display: block;*/
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+    border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+    border: 0 none;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+    /*padding: 9px 15px;*/
+    position: relative;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+.bs-docs-sidenav .icon-chevron-right {
+    float: right;
+    margin-right: -6px;
+    margin-top: 2px;
+    opacity: 0.25;
+}
+.bs-docs-sidenav > li > a:hover {
+    background-color: #F5F5F5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+    opacity: 0.5;
+}
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
+    background-image: url("img/glyphicons-halflings-white.png");
+    opacity: 1;
+}
+.bs-docs-sidenav.affix {
+    /*top: 40px;*/
+}
+.bs-docs-sidenav.affix-bottom {
+    bottom: 270px;
+    position: absolute;
+    top: auto;
+}
+
+.nav-list {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-list > li {
+	line-height:38px;
+	}
+.nav-list > li > a, .nav-list .nav-header {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.nav-list > li > a {
+    padding: 3px 6px 3px 15px;
+}
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+    background-color: #0088CC;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.nav-list [class^="icon-"], .nav-list [class*=" icon-"] {
+    margin-right: 2px;
+}
+.nav-list .divider {
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #FFFFFF;
+    height: 1px;
+    margin: 9px 1px;
+    overflow: hidden;
+}
+
+.line_top{ border-top: solid 1px #BCE8F1; margin-top:}
+.line_bottom{ border-bottom: solid 1px #BCE8F1;}
+
+.col-lg-1-1-1{
+  position: relative;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 15px;
+ float:left;
+width: 2.333333333333332%;
+ }
+
+.col-lg-1-1{
+	position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 3.333333333333332%;
+ }
+ .col-lg-1-2{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 4.4555333333333333332%;
+}
+.col-lg-1-3{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 6.333333333333332%;
+}
+.col-lg-1-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 9.333333333333332%;
+}
+.col-lg-1-4-1{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 9.755553333333332%;
+}
+.col-lg-1-5{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 11.333333333333332%;
+}
+.col-lg-1-6{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 12.333333333333332%;
+}
+.col-lg-1-6-1{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 13.333333333333332%;
+}
+.col-lg-1-7{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 14.333333333333332%;
+}
+
+.col-lg-1-11{
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+ float:left;
+width: 10.333333333333332%;
+}
+
+
+.col-lg-2-0{
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+ float:left;
+width: 15.333333333333332%;
+}
+.col-lg-2-1{
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 16.666733333333333%;
+  float: left;
+}
+.col-lg-2-5{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 18.333333333333332%;
+}
+.col-lg-2-6{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 19.333333333333332%;
+}
+.col-lg-2-7{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+ float:left;
+width: 21.333333333333332%;
+}
+.addIcon{
+	background-image:url(images/add.jpg); 
+	width:20px; 
+	height:20px; 
+	border:none; 
+	background-color:#FFF;
+	}
+.deleteIcon{
+	background-image:url(images/delete.png); 
+	width:20px; 
+	height:20px; 
+	border:none; 
+	background-color:#FFF;
+	}	
+ul.ui-autocomplete.ui-menu {   /*-----------added for autocomplete*/
+  z-index: 1000;
+}
+
+btn.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
