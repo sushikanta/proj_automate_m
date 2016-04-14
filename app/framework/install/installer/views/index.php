@@ -48,10 +48,10 @@
 
 
     <form action="<?php echo base_url();?>" method="post" accept-charset="utf-8">
-        <input type="hidden" name="hostname" value="localhost">
-        <input type="hidden" name="database" value="automate_m">
-        <input type="hidden" name="username" value="root">
-        <input type="hidden" name="password" value="">
+        <input type="hidden" name="hostname" value="<?php echo $this->config->item('host'); ?>">
+        <input type="hidden" name="database" value="<?php echo $this->config->item('database_name'); ?>">
+        <input type="hidden" name="username" value="<?php echo $this->config->item('database_user'); ?>">
+        <input type="hidden" name="password" value="<?php echo $this->config->item('database_password'); ?>">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="form-group">
@@ -87,7 +87,7 @@
 -->
                 <div class="alert alert-warning">
                     <p>
-                        <strong>Default Login Credentials</strong><br> Username: admin<br>Password: admin
+                        <strong>Default Login Credentials</strong><br> Usernames: super admin / admin / user 1<br>Password: password
                     </p>
                 </div>
                 <button id="btn_step1" class="btn btn-primary js-btn-install" type="submit">Install</button>

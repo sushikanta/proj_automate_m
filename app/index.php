@@ -15,6 +15,11 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '6')
        { header("location: #"); }
 elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '7')
        { header("location: #"); }
+
+//--- getting the required settings
+if(!isset($_SESSION['app_settings'])){
+    getSettings($con);
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,7 +31,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '7')
 <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
   <div class="container">
     <div class="navbar-header">
-        <a class="navbar-brand" href="#" style="color:#FFF;"><img src="images/logo.png" style="width:60px; height: 47px;" alt="logo"></img> Labyek : Login</a>
+        <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px">  Labyek : Login</a>
     </div>
   </div>
 </header>

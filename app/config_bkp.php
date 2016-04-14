@@ -5,7 +5,7 @@
 | -------------------------------------------------------------------
 | This file will contain the settings needed to access your database.
 */
-
+date_default_timezone_set('Asia/Kolkata');
 mysqli_report(MYSQLI_REPORT_STRICT);
 
 try

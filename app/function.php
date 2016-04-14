@@ -6,6 +6,12 @@ if(!file_exists('config.php'))
 	exit;
 }
 
+if(@$_REQUEST['reset']){
+	session_start();
+	session_destroy();
+	header( 'Location: index.php' ) ;
+	exit;
+}
 require_once("config.php"); require_once("function.php");?>
 <?php
 
@@ -139,6 +145,40 @@ function validateUsername($con, $username, $password){
 			  }
 		 }
 		}
+}
+
+function getSettings($con){
+	$result = mysqli_query($con, "SELECT * FROM settings");
+	if (mysqli_num_rows($result) > 0)
+	{
+		$settings = [];
+		while($row = mysqli_fetch_array($result))
+		{
+			$settings[$row['setting_key']] = $row;
+		}
+		$_SESSION['app_settings'] = $settings;
+	}
+}
+
+function getTrialParams($trial_days, $installed_date)
+{
+	$results = [];
+	if($trial_days && $installed_date){
+		$now = time(); // or your date as well
+		$your_date = strtotime($installed_date);
+		$elaspe_seconds = $now - $your_date;
+
+		$trial_seconds =  (($trial_days * 24) * 60) * 60;
+		$diff_seconds = $trial_seconds - $elaspe_seconds;
+		$remained_days = floor($diff_seconds/(60*60*24));
+
+		$results = [
+			'seconds_left' =>@$diff_seconds?$diff_seconds:0,
+			'days_left' => @$remained_days?$remained_days:0
+		];
+	}
+	return $results;
+
 }
 
 function error_message($con, $id){

@@ -671,3 +671,7 @@ display: block;
   #th_bg_color{background-color:#DFF0D8 !important;}
 
 }
+
+.lnk-1, .lnk-1:hover{
+color: white;
+}
