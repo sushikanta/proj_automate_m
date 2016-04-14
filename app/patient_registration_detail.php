@@ -231,7 +231,7 @@ $msg = 1;
 <form class="form-horizontal inv-form" role="form" method="get" action="#" id="form_patient_info">
 <div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Patient Info
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Patient Info
        <span id="page_date" class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>
        <span id="show_date"></span>
  
@@ -467,7 +467,7 @@ $msg = 1;
 <!----------------------------- START Investigation ----------------------------->
 <div class="panel panel-success">  
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Investigation
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Investigation
     <?php if ($msg =='1'){?>
   <a class="text-right pull-right navbar-link no-print" href="fd_search_result.php?receipt_no=<?php echo $pass_receipt_no;?>&msg=1" style="padding-left:30px;">
    <?php } 

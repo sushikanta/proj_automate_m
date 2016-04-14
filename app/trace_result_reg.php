@@ -18,7 +18,7 @@
    if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="" ){
      $receipt_no = $_GET['receipt_no'];
 ?>
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
      Trace <span class='panel-subTitle'> ( Registration # : <?php echo $receipt_no; ?>  )</span>
    <button style="margin-left:10px; margin-top:-5px;" class="no-print btn btn-mini btn-primary pull-right" id="close_all">
       <i class="fa fa-times fa-lg"></i> Reset&nbsp;</button>

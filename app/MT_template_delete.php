@@ -70,7 +70,7 @@
 
   <div class="panel panel-success" style="min-height:200px;">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
     Delete / Disable <span class="panel_subTitle">( Template Name - <?php echo showTemplate_Name($con, $tpn_id); ?> )</span>
       	<span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>  <span id="show_date"></span></span>
     </h3>

@@ -198,7 +198,7 @@ audit_record
   <!-- PANEL 1 -->
   <div class="panel panel-success">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
     Patient Info <span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
 
      <!-- ERROR VALIDATION -->
@@ -395,7 +395,7 @@ audit_record
  <!----------- PANEL 2 - Investigation ---------->
  <div class="panel panel-success" id="test_div">
    <div class="panel-heading light_purple_color">
-   <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Investigation </h3>
+   <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Investigation </h3>
    </div>
    <div class="row">
    <label for="ext_1" class="col-lg-1"></label>
@@ -437,7 +437,7 @@ audit_record
     <!----------- PANEL 3 - PAYMENT------------>
     <div class="panel panel-success">
         <div class="panel-heading light_purple_color">
-        <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Payment </h3>
+        <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Payment </h3>
         </div>
 
       <div class="form-group">

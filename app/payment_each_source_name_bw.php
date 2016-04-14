@@ -47,7 +47,7 @@ $result2 = mysqli_query($con, "SELECT patient_payment.PP_sl, patient_payment.PP_
         
    <div class="panel panel-success">  
 	<div class="panel-heading no-print light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Payment Sheet <span class="panel-subTitle"> ( <?php echo showRef_from_ref($con, $ref);?>, <?php echo showSourceName_from_ref($con, $ref);?> )</span>
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Payment Sheet <span class="panel-subTitle"> ( <?php echo showRef_from_ref($con, $ref);?>, <?php echo showSourceName_from_ref($con, $ref);?> )</span>
     
    <button onclick="printDiv('printableArea')" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>    

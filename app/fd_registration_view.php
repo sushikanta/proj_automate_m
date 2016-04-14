@@ -55,7 +55,7 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 
 <div class="panel panel-success">
 	<div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Registration information </span>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Registration information </span>
    
     <span class="date_time pull-right light_purple_color" style="padding-right:10px;"> 
     <i class="fa fa-calendar"></i> <span id="show_date"></span></span>

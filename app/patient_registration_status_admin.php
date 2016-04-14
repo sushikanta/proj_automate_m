@@ -57,7 +57,7 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
  ?>
 <div class="panel panel-success" id="printableArea" style="height">     
      <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Registration <span class="panel_subTitle no-print">( Add / Edit / Cancel )</span>
      </div>							  
 

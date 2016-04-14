@@ -25,7 +25,7 @@ if(isset($_GET['month']) && $_GET['month'] !='' && isset($_GET['year']) && $_GET
         
    <div class="panel panel-success">  
 	<div class="panel-heading no-print" style="color:#0D9707;">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Report <span style="font-size: 14px; font-style:italic; color:#000000;">( Months Report of all EDs : <?php echo $month.', '.$year; ?>)</span>
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Report <span style="font-size: 14px; font-style:italic; color:#000000;">( Months Report of all EDs : <?php echo $month.', '.$year; ?>)</span>
    
      
   <button  onclick="printDiv('printableArea')" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;"><i class="fa fa-print fa-lg"></i> Print&nbsp;</button>    

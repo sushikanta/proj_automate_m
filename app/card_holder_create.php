@@ -110,7 +110,7 @@ while($row = mysqli_fetch_array($patient_info))
 	<div class="panel panel-success">
 
   <div class="panel-heading light_purple_color">
-  <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Patient Info
+  <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Patient Info
   <span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
   </h3>
   </div>
@@ -191,7 +191,7 @@ while($row = mysqli_fetch_array($patient_info))
  <form class="form-horizontal inv-form" role="form" method="get" action="#" id="myform">
   <div class="panel-heading light_purple_color">
 
-  <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Card Holder <span class="panel-subTitle">( Add / Edit / Remove )</span></h3>
+  <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Card Holder <span class="panel-subTitle">( Add / Edit / Remove )</span></h3>
   </div>
 
   <?php

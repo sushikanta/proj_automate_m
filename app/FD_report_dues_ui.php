@@ -16,7 +16,7 @@
 
       <!------------ Print & SAve------------>
     <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Dues Sheet </span>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Dues Sheet </span>
 
 <button id="close_all" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-reorder fa-lg"></i> Reset&nbsp;</button>

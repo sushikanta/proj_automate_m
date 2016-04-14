@@ -53,7 +53,7 @@ if(isset($_GET['receipt_no']))
 ?>
 
 <div class="panel panel-success">
-      <div class="panel-heading" style="color:#0D9707;"><h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> Registration information
+      <div class="panel-heading" style="color:#0D9707;"><h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> Registration information
          <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i>  <span id="show_date"></span></span>
        
       </div>							  

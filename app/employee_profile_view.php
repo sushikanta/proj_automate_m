@@ -55,7 +55,7 @@ if(isset($_GET['ei_id']) && $_GET['ei_id'] !="")
   <!--PANEL 1 - PERSONAL -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Profile ) </span>
      <button onclick="printDiv('printableArea')" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
   <i class="fa fa-print fa-lg"></i> Print&nbsp;</button> 

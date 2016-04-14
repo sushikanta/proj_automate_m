@@ -30,7 +30,7 @@ $type = $_GET['type'];
  <div class="inv-main">        
   <div class="panel panel-success">   
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Balance sheet - <?php echo  showReferral($con, $pass_source_id, $pass_referred_id); ?></span>   
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Balance sheet - <?php echo  showReferral($con, $pass_source_id, $pass_referred_id); ?></span>   
    <button onclick="window.print()" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>
     <button type="button" onclick="tableToExcel('p_list_table', 'W3C Example Table')" class="no-print btn btn-mini btn-primary pull-right"  style="margin-top:-5px;"><i class="fa fa-file-excel-o fa-fw"></i> Save</button> <span class="date_time pull-right light_purple_color" style="padding-right:10px;"> 

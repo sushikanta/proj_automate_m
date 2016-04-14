@@ -82,7 +82,7 @@
 
 <div class ="panel panel-success" style ="min-height:200px;">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
     Edit <span class="panel_subTitle">( Template - <?php $template = showTemplate_Name($con, $tpn_id); echo $template; ?> )</span>
     </h3>
 	</div>    

@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
   </button>
-  <a class="navbar-brand" href="#" style="color:#FFF;"><!-- <img src="images/logo.png" style="width:60px; height: 47px;" alt="logo"></img>--> Front Desk </a>
+  <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px"><!-- <img src="images/logo.png" style="width:60px; height: 47px;" alt="logo"></img>--> Front Desk </a>
   </div>
 
 <nav class="nav-collapse collapse bs-navbar-collapse" role="navigation">

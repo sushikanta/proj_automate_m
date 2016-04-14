@@ -46,7 +46,7 @@ if(isset($_GET['ei_id']) && $_GET['ei_id'] !="")
   <!--PANEL 1 - PERSONAL -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Personal Info ) </span>
    	 <span class="date_time pull-right light_purple_color" style="padding-right:10px;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
      </h3>
@@ -93,7 +93,7 @@ if(isset($_GET['ei_id']) && $_GET['ei_id'] !="")
 <!--PANEL 1 - FAMILY -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Family Info ) </span>
      </h3>
    </div>	
@@ -200,7 +200,7 @@ while ($row2 = mysqli_fetch_array($result2))
   <!--PANEL 1 - Qualification -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Qualification Info ) </span>
      </h3>
    </div>	
@@ -302,7 +302,7 @@ while ($row2 = mysqli_fetch_array($result2))
 <!--PANEL 1 - Experience -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Experience Info ) </span>
      </h3>
    </div>	
@@ -403,7 +403,7 @@ while ($row2 = mysqli_fetch_array($result2))
 <!--PANEL 1 - Letter -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Letter Sent ) </span>
      </h3>
    </div>	
@@ -504,7 +504,7 @@ while ($row2 = mysqli_fetch_array($result2))
 <!--PANEL 1 - Exit -->
   <div class="panel panel-success"> 			
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Employee <span class="panel-subTitle"> ( Relieve Info ) </span>
      </h3>
    </div>	

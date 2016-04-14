@@ -48,7 +48,7 @@ if(isset($_GET['submit1']))
   <div class="panel panel-success">
   
    <div class="panel-heading" style="color:#0D9707;">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Front Desk - Account Statement
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Front Desk - Account Statement
      <span class="text-right pull-right" style="font-size:14px !important; color: #A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
      </h3>
    </div>                     

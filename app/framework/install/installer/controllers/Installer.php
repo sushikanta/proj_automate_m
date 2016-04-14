@@ -88,16 +88,19 @@ class Installer extends CI_Controller {
 			fwrite($myfile_2, $database_file_content_2);
 			fclose($myfile_2);
 			//--------
-			if(@$newly_created){
+			if(true || @$newly_created){
 				$sql = file_get_contents(FCPATH.'database_automate.sql');
 				$con->multi_query($sql); // run the dump
 				while ($con->more_results() && $con->next_result()) {;} //run through it
+
+				mysqli_query($con,'TRUNCATE TABLE settings');
 
 				//set some basic information in settings
 				$query = "INSERT INTO `settings` (`code`, `setting_key`, `setting`) VALUES
 				('default', 'business_title', '".@$dbCred['business_title']."'),
 				('default', 'business_contact', '".@$dbCred['business_contact']."'),
-				('default', 'business_contact', '".@$dbCred['business_contact']."'),
+				('default', 'email', '".@$dbCred['email']."'),
+				('default', 'regd_no', '".@$dbCred['regd_no']."'),
 				('default', 'installed_on', '".date('Y-m-d h:i:s')."'),
 				('default', 'installation_type', '".$this->config->item('installation_type')."'),
 				('default', 'trial_days', '".$this->config->item('trial_days')."'),

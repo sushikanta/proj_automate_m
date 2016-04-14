@@ -173,7 +173,7 @@ if(isset($_GET['table_emp_sl']))
  
  <form class="form-horizontal inv-form" role="form" method="get" action="#">			
   <div class="panel panel-success">  <!----------------------START Employee Information-------------->
-     <div class="panel-heading"><h3 class="panel-title" style="color:#0D9707;"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Employee information
+     <div class="panel-heading"><h3 class="panel-title" style="color:#0D9707;"><i class="fa fa-cubes fa-fw fa-lg"></i> Employee information
     <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span>
     
     <a class="text-right pull-right navbar-link no-print" href="employee_detail.php?table_emp_sl=<?php echo $table_emp_sl;?>" style="padding-left:30px;"> <i class="fa fa-arrow-circle-right fa-lg"></i></a></span>
