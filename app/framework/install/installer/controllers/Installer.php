@@ -79,12 +79,15 @@ class Installer extends CI_Controller {
 
 			//create the database file
 			$database_file_content = $this->load->view('core_database', $this->input->post(), true);
-
-			//$myfile = fopen($cartPath.'/application/config/database.php', "w");
 			$myfile = fopen('../../config.php', "w");
 			fwrite($myfile, $database_file_content);
 			fclose($myfile);
-
+			//--------
+			$database_file_content_2 = $this->load->view('database', $this->input->post(), true);
+			$myfile_2 = fopen($cartPath.'/application/config/database.php', "w");
+			fwrite($myfile_2, $database_file_content_2);
+			fclose($myfile_2);
+			//--------
 			if(@$newly_created){
 				$sql = file_get_contents(FCPATH.'database_automate.sql');
 				$con->multi_query($sql); // run the dump
@@ -94,6 +97,11 @@ class Installer extends CI_Controller {
 				$query = "INSERT INTO `settings` (`code`, `setting_key`, `setting`) VALUES
 				('default', 'business_title', '".@$dbCred['business_title']."'),
 				('default', 'business_contact', '".@$dbCred['business_contact']."'),
+				('default', 'business_contact', '".@$dbCred['business_contact']."'),
+				('default', 'installed_on', '".date('Y-m-d h:i:s')."'),
+				('default', 'installation_type', '".$this->config->item('installation_type')."'),
+				('default', 'trial_days', '".$this->config->item('trial_days')."'),
+				('default', 'app_name', '".$this->config->item('app_name')."'),
 				('default', 'address', '".@$dbCred['address']."');";
 
 				$con->query($query);
@@ -104,7 +112,7 @@ class Installer extends CI_Controller {
 
 			//$url  = dirname((isset($_SERVER['HTTPS'])?'https://':'http://').$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']).'/admin';
 
-			header('Location: ../../index.php');
+			header('Location: ../../index.php?reset=true');
 			exit;
 		}
 

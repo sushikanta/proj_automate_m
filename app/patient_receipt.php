@@ -43,6 +43,21 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !='')
 					$marital_name = $row1['marital_name'];
 					$gender_name = $row1['gender_name'];
 				}
+
+
+
+
+
+
+
+$business_title = 'Eeyek.com';
+if(isset($_SESSION['app_settings'])){
+    $settings = $_SESSION['app_settings'];
+    $business_title =  @$settings['business_title']['setting'];
+    $business_contact =  @$settings['business_contact']['setting'];
+    $business_address =  @$settings['address']['setting'];
+}
+
 			?>
  <div class="inv-main">
     <div class="container">
@@ -52,10 +67,10 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !='')
       <thead>
         <tr>
         <th style="font-weight:normal;">
-              <span class="pull-left"><h4 style="margin:0px; font:Algerian;">Eeyek.com<!-- Radical Diagnostics--></h4></span><br/>
-              <span class="pull-left" style="font-size:11pt;">Regd. No. MNHCR/NO/000/XX/0000</span>
-              <span class="text-right pull-right"><i class="fa fa-phone-square fa-fw"></i> 0000000000</span><br/>
-              <span class="pull-left" style="font-size:11pt;">Imphal East, Manipur<!-- Khurai Soibam Leikai, Meri Leirak, Near JN Hospital, Imphal East, Manipur-795001--></span>
+              <span class="pull-left"><h4 style="margin:0px; font:Algerian;"><?php echo @$business_title; ?></h4></span><br/>
+              <span class="pull-left" style="font-size:11pt;">Regd. No. N/A</span>
+              <span class="text-right pull-right"><i class="fa fa-phone-square fa-fw"></i> <?php echo @$business_contact; ?></span><br/>
+              <span class="pull-left" style="font-size:11pt;"><?php echo @$business_address; ?></span>
               <span class="text-right pull-right"><i class="fa fa-fax fa-fw"></i> 0000000000</span>
        </th>
 

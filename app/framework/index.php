@@ -155,7 +155,7 @@ switch (ENVIRONMENT)
 	// $routing['directory'] = '';
 
 	// The controller class file name.  Example:  mycontroller
-	$routing['controller'] = 'bootstrap';
+	$routing['controller'] = 'notify';
 
 	// The controller function you wish to be called.
 	$routing['function'] = 'init';

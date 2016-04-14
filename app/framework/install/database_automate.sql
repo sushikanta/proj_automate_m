@@ -8,6 +8,7 @@ CREATE TABLE `settings` (
   `code` varchar(255),
   `setting_key` varchar(255),
   `setting` longtext,
+  `ts` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 
@@ -3289,9 +3290,9 @@ CREATE TABLE `user_table` (
 --
 
 INSERT INTO `user_table` (`user_id`, `user_name`, `user_password`, `name`, `surname`, `user_dept_id`, `user_date`, `user_status`) VALUES
-(1, 'super', '01cfcd4f6b8770febfb40cb906715822', 'Super Admin', '', 1, '0000-00-00 00:00:00', 1),
-(2, 'admin', '01cfcd4f6b8770febfb40cb906715822', 'ED Admin', 'Hr Dept', 2, '2014-05-15 10:53:08', 1),
-(1615, 'test', '827ccb0eea8a706c4c34a16891f84e7b', 'Test', 'Test', 3, '2016-04-06 12:10:30', 1);
+(1, 'super admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'Super Admin', '', 1, '0000-00-00 00:00:00', 1),
+(2, 'admin', '5f4dcc3b5aa765d61d8327deb882cf99', 'ED Admin', 'Hr Dept', 2, '2014-05-15 10:53:08', 1),
+(1615, 'user 1', '5f4dcc3b5aa765d61d8327deb882cf99', 'Test', 'Test', 3, '2016-04-06 12:10:30', 1);
 
 --
 -- Indexes for dumped tables
