@@ -10,14 +10,14 @@
         "log_file": "debug.log"
     },
     "main_window": {
-        "title": "Automate M",
+        "title": "Automate-M",
         "icon": "",
         "default_size": [1024, 768],
         "minimum_size": [800, 600],
         "maximum_size": [0, 0],
         "disable_maximize_button": false,
         "center_on_screen": true,
-        "start_maximized": false,
+        "start_maximized": true,
         "start_fullscreen": false
     },
     "popup_window": {

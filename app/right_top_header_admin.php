@@ -1,3 +1,18 @@
+<?php
+$app_title = 'Automate-M';
+if (isset($_SESSION['app_settings'])) {
+    $settings = $_SESSION['app_settings'];
+    if (@$settings['logo']['setting']) {
+        $trial_days = $settings['trial_days']['setting'];
+        $logo_img = '<img height="50px" src="' . $settings['logo']['setting'] . '" />';
+
+    }
+    if (@$settings['app_name']['setting']) {
+        $app_title = @$settings['app_name']['setting'];
+    }
+}
+
+?>
 <header class="navbar navbar-inverse navbar-fixed-top no-print" role="banner" id="no-print">
   <div class="container">
 
@@ -7,7 +22,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
   </button>
-      <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px">  Labyek : Admin</a>
+      <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px"><?php echo @$logo_img; ?>  <?php echo $app_title; ?>: Admin</a>
   
   </div>
 
@@ -127,6 +142,9 @@
           <li class="<?php if(basename($_SERVER['REQUEST_URI']) == 'change_password_adm.php'){echo 'active'; } ?>">
           	<a href="change_password_adm.php"><i class="fa fa-cog fa-fw"></i> Change Password</a>
           </li>
+            <li class="<?php if(basename($_SERVER['REQUEST_URI']) == 'settings.php'){echo 'active'; } ?>">
+                <a href="settings.php"><i class="fa fa-cog fa-fw"></i> Settings</a>
+            </li>
           <li><a href="#"><i class="fa fa-envelope fa-fw"></i> Contact Support</a></li>
           <li class="divider"></li>
           <li><a href="logout.php"><i class="fa fa-power-off fa-fw"></i> Logout</a></li>

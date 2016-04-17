@@ -62,6 +62,8 @@ function resetCounter($con, $id, $type){
 		 }
 }
 
+
+
 function validateUsername($con, $username, $password){
 	$_password = md5($password);
 	$result = mysqli_query($con, "SELECT user_id, user_name, user_password, name, surname, user_dept_id, user_date, user_status FROM user_table WHERE user_name = '".$username."' AND user_password = '".$_password."' LIMIT 1");
@@ -157,6 +159,21 @@ function getSettings($con){
 			$settings[$row['setting_key']] = $row;
 		}
 		$_SESSION['app_settings'] = $settings;
+	}
+	return $settings;
+}
+
+
+function updateSettings($con, $settings_arr){
+
+	foreach($settings_arr as $key => $val) {
+		$refined_val = mysqli_real_escape_string($con, $val);
+		$result = mysqli_query($con, "SELECT id FROM settings WHERE setting_key = '$key' AND code='default'");
+		if (mysqli_num_rows($result) == 0)
+			mysqli_query($con, "INSERT INTO settings(code, setting_key, setting, ts) VALUES ('default', 'logo', '$refined_val', NOW())");
+		else {
+			mysqli_query($con, "UPDATE settings SET setting ='$refined_val' WHERE setting_key = '$key' AND code='default'");
+		}
 	}
 }
 
@@ -1732,5 +1749,8 @@ function get_long_month($con, $month_int)
 	}
 
 
+function pr($arr){
+	?><pre><?php print_r($arr); ?></pre><?php
+}
 
 ?>
