@@ -95,7 +95,7 @@
 -->
                 <div class="alert alert-warning">
                     <p>
-                        <strong>Default Login Credentials</strong><br> Usernames: super admin / admin / user 1<br>Password: password
+                       Preserve database if already exist <input style="margin-left: 10px" checked type="checkbox" name="rebuild_db" value="true">
                     </p>
                 </div>
                 <button id="btn_step1" class="btn btn-primary js-btn-install" type="submit">Install</button>

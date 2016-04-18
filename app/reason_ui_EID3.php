@@ -5,7 +5,10 @@
 <title>Reason</title>
 <?php require_once("css_bootstrap_header.php"); ?>
 
-<?php  if(isset( $_GET['go_eid3']))
+<?php
+
+
+  if(isset( $_GET['go_eid3']))
  		{
 	 	 resetCounter($con, 42, 'dd');  // reset audit id
 		 resetCounter($con, 29, 'dd');  // reset EXPENDITURE
@@ -106,6 +109,8 @@ if($check_refund =="Y")
   <div class="inv-main" id="div_hide">
 
 <?php
+
+
 if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 {
  $receipt_no = $_GET['receipt_no'];

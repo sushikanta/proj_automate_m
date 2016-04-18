@@ -16,9 +16,10 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 {
  $receipt_no = $_GET['receipt_no'];
  $patient_info = mysqli_query($con, "SELECT r.pr_source_id, r.pr_referred_id, r.pr_date, r.pr_status_id, r.pr_dr_prescription, p.PI_id, p.PI_name, p.PI_age_y, p.PI_age_m, p.PI_age_d, p.PI_address, p.PI_pin, p.PI_phone, s.state_name, d.district_name, g.gender_name, m.marital_name, y.PP_sl, y.PP_total, y.PP_tax, y.PP_disc, y.PP_net, y.PP_paid, y.PP_bal FROM patient_registration r LEFT JOIN patient_info p ON p.PI_id = r.pr_patient_id LEFT JOIN state_tbl s ON s.state_id = p.PI_state_id LEFT JOIN district_tbl d ON d.district_id = p.PI_district_id LEFT JOIN marital_tbl m ON m.marital_id = p.PI_marital_id LEFT JOIN gender_tbl g ON g.gender_id = p.PI_gender LEFT JOIN  patient_payment y ON y.PP_receipt_no=r.pr_receipt_no WHERE r.pr_receipt_no = '$receipt_no'");
- 
+
   while($row = mysqli_fetch_array($patient_info))
-  {	  
+  {
+
   	$patient_name = $row['PI_name'];
 	  $age_y = $row['PI_age_y'];
 	  $age_m = $row['PI_age_m'];
@@ -42,7 +43,7 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 	  
 	  $dr_letter = $row['pr_dr_prescription'];
 	  
-	  $PP_sl = $row['PP_sl'];
+	  $pp_sl = $row['PP_sl'];
     $total = $row['PP_total'];	
 	  $tax_option =  $row['PP_tax'];
 	  $disc_option =  $row['PP_disc'];
@@ -249,7 +250,7 @@ while ($row3 = mysqli_fetch_array($result3))
        </div>    
   </div>   
    <input type="hidden" name="receipt_no" value="<?php echo $receipt_no; ?>">
-  <input type="hidden" name="pp_sl" value="<?php echo $pp_sl; ?>">  
+  <input type="hidden" name="pp_sl" value="<?php echo @$pp_sl; ?>">
    </form>
  </div> 
   
