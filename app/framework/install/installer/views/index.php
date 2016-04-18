@@ -95,7 +95,7 @@
 -->
                 <div class="alert alert-warning">
                     <p>
-                       Preserve database if already exist <input style="margin-left: 10px" checked type="checkbox" name="rebuild_db" value="true">
+                       Preserve previously installed  database <input style="margin-left: 10px" checked type="checkbox" name="preserve_db" value="true">
                     </p>
                 </div>
                 <button id="btn_step1" class="btn btn-primary js-btn-install" type="submit">Install</button>

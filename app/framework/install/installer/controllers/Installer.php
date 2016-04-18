@@ -45,6 +45,7 @@ class Installer extends CI_Controller {
 		else
 		{
 			$dbCred = $this->input->post();
+
 			//test the database
 			mysqli_report(MYSQLI_REPORT_STRICT);
 
@@ -61,6 +62,15 @@ class Installer extends CI_Controller {
 
 			// Make my_db the current database
 			$db_selected = mysqli_select_db($con, $dbCred['database']);
+			if ($db_selected && !@$dbCred['preserve_db']){
+				$sql = 'DROP DATABASE '.$dbCred['database'];
+
+				if (mysqli_query($con, $sql)) {
+					echo "Database my_db DROPPED successfully\n";
+					mysqli_select_db($con, $dbCred['database']);
+					$db_selected = false;
+				}
+			}
 
 			if (!$db_selected) {
 				// If we couldn't, then it either doesn't exist, or we can't see it.
@@ -93,21 +103,36 @@ class Installer extends CI_Controller {
 				$con->multi_query($sql); // run the dump
 				while ($con->more_results() && $con->next_result()) {;} //run through it
 
-				mysqli_query($con,'TRUNCATE TABLE settings');
+				if(@$newly_created){
+					//set some basic information in settings
+					$query = "INSERT INTO `settings` (`code`, `setting_key`, `setting`) VALUES
+					('default', 'business_title', '".@$dbCred['business_title']."'),
+					('default', 'business_contact', '".@$dbCred['business_contact']."'),
+					('default', 'email', '".@$dbCred['email']."'),
+					('default', 'regd_no', '".@$dbCred['regd_no']."'),
+					('default', 'installed_on', '".date('Y-m-d h:i:s')."'),
+					('default', 'installation_type', '".$this->config->item('installation_type')."'),
+					('default', 'trial_days', '".$this->config->item('trial_days')."'),
+					('default', 'app_name', '".$this->config->item('app_name')."'),
+					('default', 'address', '".@$dbCred['address']."');";
+					$con->query($query);
+				}else{
+					mysqli_query($con,"DELETE FROM settings WHERE setting_key != 'installed_on'");
+					$query = "INSERT INTO `settings` (`code`, `setting_key`, `setting`) VALUES
+					('default', 'business_title', '".@$dbCred['business_title']."'),
+					('default', 'business_contact', '".@$dbCred['business_contact']."'),
+					('default', 'email', '".@$dbCred['email']."'),
+					('default', 'regd_no', '".@$dbCred['regd_no']."'),
+					('default', 'installation_type', '".$this->config->item('installation_type')."'),
+					('default', 'trial_days', '".$this->config->item('trial_days')."'),
+					('default', 'app_name', '".$this->config->item('app_name')."'),
+					('default', 'address', '".@$dbCred['address']."');";
+					$con->query($query);
 
-				//set some basic information in settings
-				$query = "INSERT INTO `settings` (`code`, `setting_key`, `setting`) VALUES
-				('default', 'business_title', '".@$dbCred['business_title']."'),
-				('default', 'business_contact', '".@$dbCred['business_contact']."'),
-				('default', 'email', '".@$dbCred['email']."'),
-				('default', 'regd_no', '".@$dbCred['regd_no']."'),
-				('default', 'installed_on', '".date('Y-m-d h:i:s')."'),
-				('default', 'installation_type', '".$this->config->item('installation_type')."'),
-				('default', 'trial_days', '".$this->config->item('trial_days')."'),
-				('default', 'app_name', '".$this->config->item('app_name')."'),
-				('default', 'address', '".@$dbCred['address']."');";
+				}
 
-				$con->query($query);
+
+
 			}
 
 

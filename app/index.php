@@ -28,7 +28,7 @@ if (isset($_SESSION['app_settings'])) {
     $settings = $_SESSION['app_settings'];
     if (@$settings['logo']['setting']) {
         $trial_days = $settings['trial_days']['setting'];
-        $logo_img = '<img height="50px" src="' . $settings['logo']['setting'] . '" />';
+        $logo_img = '<img height="50px" style="max-width: 119px;" src="' . $settings['logo']['setting'] . '" />';
 
     }
     if (@$settings['app_name']['setting']) {

@@ -5,7 +5,7 @@ if(isset($_SESSION['app_settings'])){
     $settings = $_SESSION['app_settings'];
     if(@$settings['installation_type']['setting'] && $settings['installation_type']['setting']!= 'enterprise'){
         $trial_days = $settings['trial_days']['setting'];
-        $installed_date = $settings['trial_days']['ts'];
+        $installed_date = $settings['installed_on']['ts'];
         $params = getTrialParams($trial_days, $installed_date);
         $seconds_left = @$params['seconds_left']?$params['seconds_left']:0;
          $days_left = @$params['days_left']?$params['days_left']:0;

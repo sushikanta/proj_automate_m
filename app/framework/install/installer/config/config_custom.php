@@ -2,7 +2,7 @@
 
 $config['app_name'] = 'Automate - M';    // set your application title here
 $config['installation_type'] = 'trial';  // [trial|enterprise]
-$config['trial_days'] = 365;  // no. of days the product should be set for trial users.
+$config['trial_days'] = 15;  // no. of days the product should be set for trial users.
 
 //---- default database settings
 $config['host'] = 'localhost';

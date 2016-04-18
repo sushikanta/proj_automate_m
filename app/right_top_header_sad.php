@@ -1,3 +1,18 @@
+<?php
+$app_title = 'Automate-M';
+if (isset($_SESSION['app_settings'])) {
+    $settings = $_SESSION['app_settings'];
+    if (@$settings['logo']['setting']) {
+        $trial_days = $settings['trial_days']['setting'];
+        $logo_img = '<img height="50px" style="max-width: 119px;" src="' . $settings['logo']['setting'] . '" />';
+
+    }
+    if (@$settings['app_name']['setting']) {
+        $app_title = @$settings['app_name']['setting'];
+    }
+}
+
+?>
 <header id="top" class="navbar navbar-inverse navbar-fixed-top bs-navbar" role="banner">
 
 <div class="container">
@@ -8,8 +23,8 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
   </button>
-     <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px"> Super Admin </a>
-  </div>
+     <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px"><?php echo @$logo_img; ?> Super Admin</a>
+     </div>
 
 <nav class="nav-collapse collapse bs-navbar-collapse" role="navigation">
 
