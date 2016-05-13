@@ -110,7 +110,7 @@ class Installer extends CI_Controller {
 					('default', 'business_contact', '".@$dbCred['business_contact']."'),
 					('default', 'email', '".@$dbCred['email']."'),
 					('default', 'regd_no', '".@$dbCred['regd_no']."'),
-					('default', 'installed_on', '".date('Y-m-d h:i:s')."'),
+					('default', 'installed_on', '".date('Y-m-d H:i:s')."'),
 					('default', 'installation_type', '".$this->config->item('installation_type')."'),
 					('default', 'trial_days', '".$this->config->item('trial_days')."'),
 					('default', 'app_name', '".$this->config->item('app_name')."'),

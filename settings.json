@@ -29,7 +29,7 @@
     "web_server": {
         "listen_on": ["127.0.0.1", 0],
         "www_directory": "app",
-        "index_files": ["index.html", "index.php"],
+        "index_files": ["startup-splash.php", "index.html", "index.php"],
         "cgi_interpreter": "php/php-cgi.exe",
         "cgi_extensions": ["php"],
         "cgi_temp_dir": "",

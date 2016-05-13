@@ -2778,3 +2778,376 @@
 - 13:40:21.172 INFO: Ended application
 - 13:40:21.172 INFO: --------------------------------------------------------
 - 13:40:21.969 DEBUG: OnBrowserDestroyed()
+- 00:07:35.000 INFO: --------------------------------------------------------
+- 00:07:35.000 INFO: Started application
+- 00:07:35.000 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 00:07:35.000 INFO: Log level = DEBUG4
+- 00:07:35.000 INFO: Starting Mongoose 3.9c web server
+- 00:07:35.000 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 00:07:35.000 INFO: Index files: index.html,index.php
+- 00:07:35.000 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 00:07:35.000 INFO: CGI pattern: **.php$
+- 00:07:35.000 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:07:35.000 INFO: Web server url: http://127.0.0.1:53534/
+- 00:07:35.000 INFO: remote_debugging_port = 65218
+- 00:07:35.000 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=65218 --no-sandbox
+- 00:07:35.031 DEBUG: App::OnContextInitialized()
+- 00:07:35.031 DEBUG: Window max width/height = 1286/690
+- 00:07:35.031 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 00:07:35.031 DEBUG: GetBrowserWindow(): not found, hwnd = 722276
+- 00:07:35.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:07:35.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:07:35.031 DEBUG: StoreBrowserWindow(): hwnd = 722276
+- 00:07:35.046 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:07:35.062 DEBUG: ClientHandler::OnAfterCreated()
+- 00:07:35.062 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:07:35.062 INFO: DPI, ppix = 96, ppiy = 96
+- 00:07:35.062 INFO: DPI, browser zoom level = 0
+- 00:07:35.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:07:35.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="7192.0.460852195\181731141" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 00:07:35.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="7192.1.564958450\805212879" /prefetch:673131151
+- 00:07:35.031 DEBUG: OnBrowserCreated()
+- 00:07:37.046 INFO: GET 302 /
+- 00:07:37.062 INFO: GET -1 /framework/install
+- 00:07:37.047 DEBUG: OnContextCreated()
+- 00:07:37.156 INFO: GET 200 /framework/install/
+- 00:07:37.171 INFO: GET 200 /framework/assets/css/font-awesome.css
+- 00:07:37.171 INFO: GET 200 /framework/assets/css/bootstrap.min.css
+- 00:07:37.171 INFO: GET 200 /framework/assets/js/jquery-2.1.3.min.js
+- 00:07:37.187 INFO: GET 200 /framework/assets/img/gears.gif
+- 00:07:37.187 INFO: GET 200 /framework/assets/js/bootstrap.min.js
+- 00:07:37.296 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53534/framework/install/
+- 00:07:39.468 DEBUG: WM_DESTROY
+- 00:07:39.468 DEBUG: RemoveBrowserWindow(): hwnd = 722276
+- 00:07:39.468 INFO: Stopping Mongoose web server
+- 00:07:39.468 DEBUG: Mongoose webserver stopped immediately
+- 00:07:39.468 DEBUG: RemoveBrowserWindow(): hwnd = 592374
+- 00:07:39.468 DEBUG: GetBrowserWindow(): not found, hwnd = 592374
+- 00:07:39.468 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:07:39.391 DEBUG: OnBrowserDestroyed()
+- 00:07:39.500 INFO: Ended application
+- 00:07:39.500 INFO: --------------------------------------------------------
+- 00:13:22.000 INFO: --------------------------------------------------------
+- 00:13:22.000 INFO: Started application
+- 00:13:22.000 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 00:13:22.000 INFO: Log level = DEBUG4
+- 00:13:22.015 INFO: Starting Mongoose 3.9c web server
+- 00:13:22.031 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 00:13:22.031 INFO: Index files: startup-splash.php,index.html,index.php
+- 00:13:22.031 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 00:13:22.031 INFO: CGI pattern: **.php$
+- 00:13:22.031 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:13:22.046 INFO: Web server url: http://127.0.0.1:58190/
+- 00:13:22.046 INFO: remote_debugging_port = 49217
+- 00:13:22.046 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=49217 --no-sandbox
+- 00:13:23.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="11688.0.1669276887\1073232237" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 00:13:23.515 DEBUG: App::OnContextInitialized()
+- 00:13:23.515 DEBUG: Window max width/height = 1286/690
+- 00:13:23.515 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 00:13:23.515 DEBUG: GetBrowserWindow(): not found, hwnd = 1903736
+- 00:13:23.515 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:13:23.515 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:13:23.562 DEBUG: StoreBrowserWindow(): hwnd = 1903736
+- 00:13:23.578 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:13:24.968 DEBUG: ClientHandler::OnAfterCreated()
+- 00:13:24.000 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:13:24.015 INFO: DPI, ppix = 96, ppiy = 96
+- 00:13:24.015 INFO: DPI, browser zoom level = 0
+- 00:13:24.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="11688.1.1377124588\180701916" /prefetch:673131151
+- 00:13:24.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:13:28.906 DEBUG: OnBrowserCreated()
+- 00:13:33.015 INFO: GET 200 /
+- 00:13:33.328 DEBUG: OnContextCreated()
+- 00:13:34.828 INFO: GET 200 /js/jquery-1.10.2.min.js
+- 00:13:34.828 INFO: GET 200 /images/logos/splash-screen.jpg
+- 00:13:34.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58190/
+[0425/001336:INFO:CONSOLE(49)] "completed", source: http://127.0.0.1:58190/ (49)
+[0425/001341:INFO:CONSOLE(51)] "completed 2", source: http://127.0.0.1:58190/ (51)
+- 00:14:41.046 DEBUG: WM_DESTROY
+- 00:14:41.046 DEBUG: RemoveBrowserWindow(): hwnd = 1903736
+- 00:14:41.046 INFO: Stopping Mongoose web server
+- 00:14:41.046 DEBUG: Mongoose webserver stopped immediately
+- 00:14:41.046 DEBUG: RemoveBrowserWindow(): hwnd = 3605682
+- 00:14:41.046 DEBUG: GetBrowserWindow(): not found, hwnd = 3605682
+- 00:14:41.046 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:14:41.078 DEBUG: OnBrowserDestroyed()
+- 00:14:42.687 INFO: Ended application
+- 00:14:42.687 INFO: --------------------------------------------------------
+- 00:14:43.000 INFO: --------------------------------------------------------
+- 00:14:43.000 INFO: Started application
+- 00:14:43.000 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 00:14:43.000 INFO: Log level = DEBUG4
+- 00:14:43.000 INFO: Starting Mongoose 3.9c web server
+- 00:14:43.000 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 00:14:43.000 INFO: Index files: startup-splash.php,index.html,index.php
+- 00:14:43.000 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 00:14:43.000 INFO: CGI pattern: **.php$
+- 00:14:43.000 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:14:43.015 INFO: Web server url: http://127.0.0.1:58195/
+- 00:14:43.015 INFO: remote_debugging_port = 54649
+- 00:14:43.015 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=54649 --no-sandbox
+- 00:14:43.031 DEBUG: App::OnContextInitialized()
+- 00:14:43.031 DEBUG: Window max width/height = 1286/690
+- 00:14:43.031 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 00:14:43.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1970752
+- 00:14:43.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:14:43.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:14:43.047 DEBUG: StoreBrowserWindow(): hwnd = 1970752
+- 00:14:43.047 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:14:43.094 DEBUG: ClientHandler::OnAfterCreated()
+- 00:14:43.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:14:43.094 INFO: DPI, ppix = 96, ppiy = 96
+- 00:14:43.094 INFO: DPI, browser zoom level = 0
+- 00:14:43.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="4872.0.356868633\566002345" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 00:14:43.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:14:43.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="4872.1.1231890913\793993740" /prefetch:673131151
+- 00:14:43.015 DEBUG: OnBrowserCreated()
+- 00:14:44.375 DEBUG: OnContextCreated()
+- 00:14:44.515 INFO: GET 200 /js/jquery-1.10.2.min.js
+- 00:14:44.515 INFO: GET 200 /images/logos/splash-screen.jpg
+- 00:14:44.515 INFO: GET 200 /
+- 00:14:45.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58195/
+[0425/001447:INFO:CONSOLE(49)] "completed", source: http://127.0.0.1:58195/ (49)
+- 00:14:51.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58195/
+- 00:14:52.687 DEBUG: OnContextCreated()
+- 00:14:52.828 INFO: GET 200 /index.php
+- 00:14:52.906 INFO: GET 200 /css/jquery-ui.css
+- 00:14:52.922 INFO: GET 200 /css/bootstrap.css
+- 00:14:52.937 INFO: GET 200 /font-awesome-4.1.0/css/font-awesome.min.css
+- 00:14:52.937 INFO: GET 200 /style.css
+- 00:14:52.031 INFO: GET 200 /js/jquery-migrate-1.2.1.min.js
+- 00:14:52.062 INFO: GET 200 /js/bootstrap-hover-dropdown.min.js
+- 00:14:52.094 INFO: GET 200 /js/bootstrap.js
+- 00:14:52.125 INFO: GET 200 /js/moment-with-langs.min.js
+- 00:14:52.172 INFO: GET 200 /js/jquery-ui-1.10.3.js
+[0425/001453:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:14:53.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58195/index.php
+- 00:14:58.969 DEBUG: WM_DESTROY
+- 00:14:58.969 DEBUG: RemoveBrowserWindow(): hwnd = 1970752
+- 00:14:58.969 INFO: Stopping Mongoose web server
+- 00:14:58.969 DEBUG: Mongoose webserver stopped immediately
+- 00:14:58.969 DEBUG: RemoveBrowserWindow(): hwnd = 2426114
+- 00:14:58.969 DEBUG: GetBrowserWindow(): not found, hwnd = 2426114
+- 00:14:58.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:14:58.015 INFO: Ended application
+- 00:14:58.015 INFO: --------------------------------------------------------
+- 00:15:00.000 INFO: --------------------------------------------------------
+- 00:15:00.000 INFO: Started application
+- 00:15:00.000 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 00:15:00.000 INFO: Log level = DEBUG4
+- 00:15:00.000 INFO: Starting Mongoose 3.9c web server
+- 00:15:00.000 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 00:15:00.000 INFO: Index files: startup-splash.php,index.html,index.php
+- 00:15:00.000 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 00:15:00.000 INFO: CGI pattern: **.php$
+- 00:15:00.000 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:15:00.016 INFO: Web server url: http://127.0.0.1:58210/
+- 00:15:00.016 INFO: remote_debugging_port = 58998
+- 00:15:00.016 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=58998 --no-sandbox
+- 00:15:00.031 DEBUG: App::OnContextInitialized()
+- 00:15:00.031 DEBUG: Window max width/height = 1286/690
+- 00:15:00.031 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 00:15:00.031 DEBUG: GetBrowserWindow(): not found, hwnd = 1115206
+- 00:15:00.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:15:00.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:15:00.031 DEBUG: StoreBrowserWindow(): hwnd = 1115206
+- 00:15:00.047 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:15:00.078 DEBUG: ClientHandler::OnAfterCreated()
+- 00:15:00.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:15:00.078 INFO: DPI, ppix = 96, ppiy = 96
+- 00:15:00.078 INFO: DPI, browser zoom level = 0
+- 00:15:00.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="3956.0.1515969012\2141290757" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 00:15:00.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:15:00.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="3956.1.336735921\758307430" /prefetch:673131151
+- 00:15:00.016 DEBUG: OnBrowserCreated()
+- 00:15:01.391 DEBUG: OnContextCreated()
+- 00:15:01.516 INFO: GET 200 /js/jquery-1.10.2.min.js
+- 00:15:01.531 INFO: GET 200 /images/logos/splash-screen.jpg
+- 00:15:01.578 INFO: GET 200 /
+- 00:15:01.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/
+[0425/001503:INFO:CONSOLE(49)] "completed", source: http://127.0.0.1:58210/ (49)
+- 00:15:08.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/
+- 00:15:08.203 DEBUG: OnContextCreated()
+- 00:15:08.328 INFO: GET 200 /font-awesome-4.1.0/css/font-awesome.min.css
+- 00:15:08.328 INFO: GET 200 /css/jquery-ui.css
+- 00:15:08.328 INFO: GET 200 /style.css
+- 00:15:08.328 INFO: GET 200 /css/bootstrap.css
+- 00:15:08.328 INFO: GET 200 /js/jquery-migrate-1.2.1.min.js
+- 00:15:08.344 INFO: GET 200 /index.php
+- 00:15:08.359 INFO: GET 200 /js/bootstrap-hover-dropdown.min.js
+- 00:15:08.359 INFO: GET 200 /js/bootstrap.js
+- 00:15:08.359 INFO: GET 200 /js/moment-with-langs.min.js
+- 00:15:08.484 INFO: GET 200 /js/jquery-ui-1.10.3.js
+[0425/001508:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:15:08.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/index.php
+- 00:15:11.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/index.php
+- 00:15:11.328 INFO: GET 200 /framework/index.php/notify
+- 00:15:11.203 DEBUG: OnContextCreated()
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/css/reset.css
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/css/main.css
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/js/TimeCircles.js
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/js/backstretch.js
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/js/main.js
+- 00:15:11.344 INFO: GET 200 /framework/assets/notify/js/jquery.js
+- 00:15:12.859 INFO: GET 200 /framework/index.php/img/bg_img3.jpg
+- 00:15:12.922 INFO: GET 200 /framework/index.php/img/bg_img2.jpg
+- 00:15:12.922 INFO: GET 200 /framework/index.php/img/bg_img.jpg
+- 00:15:12.078 INFO: GET 200 /framework/assets/notify/fonts/Aleo-Regular.woff
+- 00:15:12.453 INFO: GET 200 /framework/assets/notify/fonts/Lato-Bold.woff
+- 00:15:12.453 INFO: GET 200 /framework/assets/notify/fonts/Lato-Regular.woff
+- 00:15:12.484 INFO: GET 200 /framework/assets/notify/img/manipur.jpg
+- 00:15:13.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/framework/index.php/notify
+- 00:15:14.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/framework/index.php/notify
+- 00:15:15.734 INFO: GET 302 /search_ui_admin.php
+- 00:15:15.719 DEBUG: OnContextCreated()
+- 00:15:15.844 INFO: GET 200 /index.php?errmsg=3
+- 00:15:15.016 INFO: GET 200 /font-awesome-4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0
+[0425/001515:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:15:15.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/index.php?errmsg=3
+- 00:15:24.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/index.php?errmsg=3
+- 00:15:24.078 INFO: GET 302 /index.php?username=admin&password=password&submit=
+- 00:15:24.109 DEBUG: OnContextCreated()
+- 00:15:24.250 INFO: GET 200 /search_ui_admin.php
+- 00:15:24.359 INFO: GET 404 /css/images/ui-bg_flat_75_ffffff_40x100.png
+[0425/001524:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:15:24.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/search_ui_admin.php
+- 00:15:28.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/search_ui_admin.php
+- 00:15:28.234 INFO: GET 302 /logout.php
+- 00:15:28.172 DEBUG: OnContextCreated()
+- 00:15:28.313 INFO: GET 200 /index.php?smsg=1
+[0425/001528:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:15:28.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/index.php?smsg=1
+- 00:15:35.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58210/index.php?smsg=1
+- 00:15:36.625 DEBUG: OnContextCreated()
+- 00:15:36.766 INFO: GET 200 /framework/index.php/notify
+- 00:15:36.141 INFO: GET 200 /framework/index.php/img/bg_img.jpg
+- 00:15:36.141 INFO: GET 200 /framework/index.php/img/bg_img2.jpg
+- 00:15:36.156 INFO: GET 200 /framework/index.php/img/bg_img3.jpg
+- 00:15:36.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58210/framework/index.php/notify
+- 00:15:40.625 DEBUG: WM_DESTROY
+- 00:15:40.625 DEBUG: RemoveBrowserWindow(): hwnd = 1115206
+- 00:15:40.625 INFO: Stopping Mongoose web server
+- 00:15:40.625 DEBUG: Mongoose webserver stopped immediately
+- 00:15:40.625 DEBUG: RemoveBrowserWindow(): hwnd = 4788370
+- 00:15:40.625 DEBUG: GetBrowserWindow(): not found, hwnd = 4788370
+- 00:15:40.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:15:41.734 INFO: Ended application
+- 00:15:41.734 INFO: --------------------------------------------------------
+- 00:15:50.000 INFO: --------------------------------------------------------
+- 00:15:50.000 INFO: Started application
+- 00:15:50.000 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 00:15:50.000 INFO: Log level = DEBUG4
+- 00:15:50.000 INFO: Starting Mongoose 3.9c web server
+- 00:15:50.000 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 00:15:50.000 INFO: Index files: startup-splash.php,index.html,index.php
+- 00:15:50.000 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 00:15:50.000 INFO: CGI pattern: **.php$
+- 00:15:50.000 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 00:15:50.000 INFO: Web server url: http://127.0.0.1:58270/
+- 00:15:50.016 INFO: remote_debugging_port = 59917
+- 00:15:50.016 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=59917 --no-sandbox
+- 00:15:50.031 DEBUG: App::OnContextInitialized()
+- 00:15:50.031 DEBUG: Window max width/height = 1286/690
+- 00:15:50.031 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 00:15:50.031 DEBUG: GetBrowserWindow(): not found, hwnd = 1118360
+- 00:15:50.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:15:50.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:15:50.031 DEBUG: StoreBrowserWindow(): hwnd = 1118360
+- 00:15:50.047 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 00:15:50.078 DEBUG: ClientHandler::OnAfterCreated()
+- 00:15:50.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:15:50.078 INFO: DPI, ppix = 96, ppiy = 96
+- 00:15:50.078 INFO: DPI, browser zoom level = 0
+- 00:15:50.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:15:50.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="11508.0.2019573325\425840025" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 00:15:50.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="11508.1.2096266667\1761467046" /prefetch:673131151
+- 00:15:50.047 DEBUG: OnBrowserCreated()
+- 00:15:51.250 DEBUG: OnContextCreated()
+- 00:15:51.391 INFO: GET 200 /images/logos/splash-screen.jpg
+- 00:15:51.391 INFO: GET 200 /js/jquery-1.10.2.min.js
+- 00:15:51.406 INFO: GET 200 /
+- 00:15:51.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58270/
+[0425/001553:INFO:CONSOLE(49)] "completed", source: http://127.0.0.1:58270/ (49)
+- 00:15:58.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58270/
+- 00:15:58.047 DEBUG: OnContextCreated()
+- 00:15:58.188 INFO: GET 200 /css/bootstrap.css
+- 00:15:58.188 INFO: GET 200 /font-awesome-4.1.0/css/font-awesome.min.css
+- 00:15:58.188 INFO: GET 200 /style.css
+- 00:15:58.188 INFO: GET 200 /css/jquery-ui.css
+- 00:15:58.188 INFO: GET 200 /js/jquery-migrate-1.2.1.min.js
+- 00:15:58.188 INFO: GET 200 /js/bootstrap.js
+- 00:15:58.188 INFO: GET 200 /js/bootstrap-hover-dropdown.min.js
+- 00:15:58.188 INFO: GET 200 /js/moment-with-langs.min.js
+- 00:15:58.250 INFO: GET 200 /index.php
+- 00:15:58.344 INFO: GET 200 /js/jquery-ui-1.10.3.js
+[0425/001558:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 00:15:58.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58270/index.php
+- 00:16:16.547 DEBUG: WM_DESTROY
+- 00:16:16.547 DEBUG: RemoveBrowserWindow(): hwnd = 1118360
+- 00:16:16.547 INFO: Stopping Mongoose web server
+- 00:16:16.547 DEBUG: Mongoose webserver stopped immediately
+- 00:16:16.547 DEBUG: RemoveBrowserWindow(): hwnd = 922138
+- 00:16:16.547 DEBUG: GetBrowserWindow(): not found, hwnd = 922138
+- 00:16:16.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:16:16.578 INFO: Ended application
+- 00:16:16.578 INFO: --------------------------------------------------------
+- 00:16:16.485 DEBUG: OnBrowserDestroyed()
+- 08:44:03.016 INFO: --------------------------------------------------------
+- 08:44:03.016 INFO: Started application
+- 08:44:03.016 INFO: Logging to: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log
+- 08:44:03.016 INFO: Log level = DEBUG4
+- 08:44:03.016 INFO: Starting Mongoose 3.9c web server
+- 08:44:03.016 INFO: WWW directory: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\app
+- 08:44:03.016 INFO: Index files: startup-splash.php,index.html,index.php
+- 08:44:03.016 INFO: CGI interpreter: D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\php\php-cgi.exe
+- 08:44:03.016 INFO: CGI pattern: **.php$
+- 08:44:03.016 INFO: CGI environment variables set: TMP=C:\Users\Richard\AppData\Local\Temp\,TEMP=C:\Users\Richard\AppData\Local\Temp\,TMPDIR=C:\Users\Richard\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 08:44:03.031 INFO: Web server url: http://127.0.0.1:58478/
+- 08:44:03.031 INFO: remote_debugging_port = 53475
+- 08:44:03.031 DEBUG: Command line string for the browser process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --remote-debugging-port=53475 --no-sandbox
+- 08:44:04.000 DEBUG: Command line string for the gpu-process process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=gpu-process --channel="3936.0.218655646\1016665929" --no-sandbox --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0046 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2900 --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" /prefetch:822062411
+- 08:44:04.141 DEBUG: App::OnContextInitialized()
+- 08:44:04.141 DEBUG: Window max width/height = 1286/690
+- 08:44:04.141 DEBUG: Window max size exceeded, new width/height = 1024/690
+- 08:44:04.141 DEBUG: GetBrowserWindow(): not found, hwnd = 197506
+- 08:44:04.141 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 08:44:04.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 08:44:04.156 DEBUG: StoreBrowserWindow(): hwnd = 197506
+- 08:44:04.172 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 08:44:04.563 DEBUG: ClientHandler::OnAfterCreated()
+- 08:44:04.563 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 08:44:04.578 INFO: DPI, ppix = 96, ppiy = 96
+- 08:44:04.578 INFO: DPI, browser zoom level = 0
+- 08:44:04.000 DEBUG: Command line string for the renderer process: "D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\automate-m.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="D:\xamps\xampp-5.6.8\htdocs\proj_automate_m\debug.log" --channel="3936.1.558612505\1639217875" /prefetch:673131151
+- 08:44:04.781 DEBUG: OnLoadingStateChange: loading=1, url=
+- 08:44:07.359 DEBUG: OnBrowserCreated()
+- 08:44:11.203 INFO: GET 200 /
+- 08:44:11.937 DEBUG: OnContextCreated()
+- 08:44:11.797 INFO: GET 200 /images/logos/splash-screen.jpg
+- 08:44:11.844 INFO: GET 200 /js/jquery-1.10.2.min.js
+- 08:44:12.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58478/
+[0425/084414:INFO:CONSOLE(49)] "completed", source: http://127.0.0.1:58478/ (49)
+- 08:44:19.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58478/
+- 08:44:21.203 INFO: GET 200 /index.php
+- 08:44:21.484 DEBUG: OnContextCreated()
+- 08:44:21.266 INFO: GET 200 /css/jquery-ui.css
+- 08:44:21.266 INFO: GET 200 /font-awesome-4.1.0/css/font-awesome.min.css
+- 08:44:21.281 INFO: GET 200 /style.css
+- 08:44:21.281 INFO: GET 200 /css/bootstrap.css
+- 08:44:21.360 INFO: GET 200 /js/jquery-migrate-1.2.1.min.js
+- 08:44:21.391 INFO: GET 200 /js/bootstrap-hover-dropdown.min.js
+- 08:44:21.422 INFO: GET 200 /js/bootstrap.js
+- 08:44:21.469 INFO: GET 200 /js/moment-with-langs.min.js
+- 08:44:21.547 INFO: GET 200 /js/jquery-ui-1.10.3.js
+[0425/084421:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+- 08:44:21.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58478/index.php
+- 08:44:26.828 DEBUG: WM_DESTROY
+- 08:44:26.828 DEBUG: RemoveBrowserWindow(): hwnd = 197506
+- 08:44:26.828 INFO: Stopping Mongoose web server
+- 08:44:26.828 DEBUG: Mongoose webserver stopped immediately
+- 08:44:26.828 DEBUG: RemoveBrowserWindow(): hwnd = 197220
+- 08:44:26.828 DEBUG: GetBrowserWindow(): not found, hwnd = 197220
+- 08:44:26.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 08:44:26.218 DEBUG: OnBrowserDestroyed()
+- 08:44:26.969 INFO: Ended application
+- 08:44:26.969 INFO: --------------------------------------------------------

@@ -1753,4 +1753,63 @@ function pr($arr){
 	?><pre><?php print_r($arr); ?></pre><?php
 }
 
+function evaluateKeys($settings = []){
+	$var_app_version =  "automate-m-v-1";
+	$var_app_type_arr =  [
+		'15' => 'gGxEd7rxMP',
+		'30' => 'Un9wDQE6i2',
+		'90' => 'O6zSVzJJpr',
+		'365' => '8C31LazG05',
+		'730' => '3KY8AG8Sb6',
+		'1' => 'YN29tx8p2F',
+	];
+
+	if(count($settings) >= 3 && @$settings['key_1']['setting'] && @$settings['key_2']['setting'] && @$settings['key_3']['setting']){
+		$key_1 = base64_decode($settings['key_1']['setting']);
+		$key_2 = $settings['key_2']['setting'];
+		$key_3 = base64_decode($settings['key_3']['setting']);
+
+		//--checking whether key 1 is valid or not
+		ob_start();
+		system('ipconfig /all');
+		$mycom=ob_get_contents();
+		ob_clean();
+		$findme = "Physical";
+		$pmac = strpos($mycom, $findme);
+		$secret_key =substr($mycom,($pmac+36),17);
+		//--------
+		if($key_1 != $secret_key){
+			return false;
+		}
+
+		//--checking whether key 3 is valid or not
+		$d = DateTime::createFromFormat('Y-m-d H:i:s', $key_3);
+		if(!($d && $d->format('Y-m-d H:i:s') === $key_3)){
+			return false;
+		}
+
+		$key_matched = false;
+
+		foreach ($var_app_type_arr AS $key => $item){
+			if($key_matched){
+				continue;
+			}
+			$data = $var_app_version.$item;
+			$possible_key = hash_hmac('sha256',$data,$secret_key);
+			if($possible_key == $key_2){
+				$key_matched = true;
+				$activated_days = $key;
+				$result = array(
+					'activated_days' =>$key,
+					'activated_date' =>$key_3,
+				);
+				return $result;
+			}
+		}
+	}
+	return false;
+
+}
+
+
 ?>

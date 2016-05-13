@@ -1,11 +1,15 @@
 <?php
 $expired = true;
 $product_owner = '';
+
 if(isset($_SESSION['app_settings'])){
     $settings = $_SESSION['app_settings'];
-    if(@$settings['installation_type']['setting'] && $settings['installation_type']['setting']!= 'enterprise'){
-        $trial_days = $settings['trial_days']['setting'];
-        $installed_date = $settings['installed_on']['ts'];
+
+    $result = evaluateKeys($settings);
+
+    if(@$result['activated_days'] && $result['activated_date']){
+        $trial_days = $result['activated_days'];
+        $installed_date = $result['activated_date'];
         $params = getTrialParams($trial_days, $installed_date);
         $seconds_left = @$params['seconds_left']?$params['seconds_left']:0;
          $days_left = @$params['days_left']?$params['days_left']:0;
@@ -18,13 +22,7 @@ if(isset($_SESSION['app_settings'])){
                 $no_days = $count_days > 1?$count_days.' days': $count_days.' day';
                 $product_info_msg = '<a class="lnk-1" href="framework/index.php/notify">This product will expire in '.$no_days.'.</a>';
             }
-    }else if(@$settings['installation_type']['setting']!= 'enterprise'){
-        $expired = false;
-        if(@$settings['business_title']['setting']){
-            $product_info_msg = 'This product is licenced to '.$settings['business_title']['setting'];
-        }
-
-    }
+    } 
 
 
     if (@$settings['business_title']['setting']) {
