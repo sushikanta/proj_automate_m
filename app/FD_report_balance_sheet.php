@@ -30,7 +30,7 @@ $type = $_GET['type'];
  <div class="inv-main">        
   <div class="panel panel-success">   
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Balance sheet - <?php echo  showReferral($con, $pass_source_id, $pass_referred_id); ?></span>   
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle"> Balance sheet - <?php echo  showReferral($con, $pass_source_id, $pass_referred_id); ?></span>   
    <button onclick="window.print()" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>
     <button type="button" onclick="tableToExcel('p_list_table', 'W3C Example Table')" class="no-print btn btn-mini btn-primary pull-right"  style="margin-top:-5px;"><i class="fa fa-file-excel-o fa-fw"></i> Save</button> <span class="date_time pull-right light_purple_color" style="padding-right:10px;"> 
@@ -69,9 +69,9 @@ while ($row = mysqli_fetch_array($result))
 ?>
  <tr id="<?php echo $row['pr_receipt_no'] ; ?>">
       <td class="readonly-bg"> <?php echo $sl_no; ?> </td>
-      <td style="cursor:not-allowed;"><?php echo $row['pr_receipt_no']; ?> </td>  
+      <td style="cursor:not-allowed;"><?php echo $row['pr_receipt_no']; ?> </td>
       <td class="readonly-bg"><?php echo $row['PI_name']; ?> </td>
-      <td style="cursor:not-allowed;"><?php $marital_status = show_marital_status($con, $row['PI_marital_id']); if($marital_status ==''){echo '';}else{echo $marital_status;} echo ' ('.show_gender_short($con, $row['PI_gender_id']).'), '.show_age_long($con, $row['PI_age_y'], $row['PI_age_m'], $row['PI_age_d']);?></td>  
+      <td style="cursor:not-allowed;"><?php $marital_status = show_marital_status($con, $row['PI_marital_id']); if($marital_status ==''){echo '';}else{echo $marital_status;} echo ' ('.show_gender_short($con, $row['PI_gender_id']).'), '.show_age_long($con, $row['PI_age_y'], $row['PI_age_m'], $row['PI_age_d']);?></td>
       <td class="readonly-bg"> <?php echo $row['PI_address']; ?>, <?php $district = showDistrictName($con, $row['PI_district_id']); if($district == "0"){echo "";}else{echo $district;} ?>, <?php echo showStateName($con,$row['PI_state_id']); ?> <?php if($row['PI_pin_id'] == "0"){echo "";}else{echo " - ".$row['PI_pin_id'];} ?>
 	  </td>
       <td class="readonly-bg"><?php if($row['PI_phone'] == "0"){echo "";}else{echo "+91 ".$row['PI_phone'];} ?></td>

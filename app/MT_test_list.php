@@ -13,7 +13,7 @@
     
   <div class="panel panel-success">  <!----------------------START price list Information-------------->
 	<div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
      Investigation <span class='panel-subTitle'> ( Add / View Template )</span>
      <button style="margin-left:10px; margin-top:-5px;" class="no-print btn btn-mini btn-primary pull-right" id="close_all">
       <i class="fa fa-times fa-lg"></i> Reset&nbsp;</button>

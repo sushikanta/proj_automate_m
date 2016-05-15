@@ -51,7 +51,7 @@ if(isset($_GET['start']) && $_GET['start'] !='' && isset($_GET['stop']) && $_GET
         
    <div class="panel panel-success">  
 	<div class="panel-heading no-print light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Report <span class="panel-subTitle">( Account Statement )</span>
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Report <span class="panel-subTitle">( Account Statement )</span>
   
    <a class="text-right pull-right navbar-link no-print" href="FD_report_ac_statement_ui.php" style="padding-left:15px;">
    <i class="fa fa-arrow-circle-right"></i></a>

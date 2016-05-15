@@ -52,10 +52,16 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !='')
 
 $business_title = 'Eeyek.com';
 if(isset($_SESSION['app_settings'])){
+
     $settings = $_SESSION['app_settings'];
+
     $business_title =  @$settings['business_title']['setting'];
     $business_contact =  @$settings['business_contact']['setting'];
     $business_address =  @$settings['address']['setting'];
+    $regd_no =  @$settings['regd_no']['setting'];
+    $email =  @$settings['email']['setting'];
+ //   $email =  @$settings['email']['setting'];
+
 }
 
 			?>
@@ -68,10 +74,21 @@ if(isset($_SESSION['app_settings'])){
         <tr>
         <th style="font-weight:normal;">
               <span class="pull-left"><h4 style="margin:0px; font:Algerian;"><?php echo @$business_title; ?></h4></span><br/>
-              <span class="pull-left" style="font-size:11pt;">Regd. No. N/A</span>
-              <span class="text-right pull-right"><i class="fa fa-phone-square fa-fw"></i> <?php echo @$business_contact; ?></span><br/>
-              <span class="pull-left" style="font-size:11pt;"><?php echo @$business_address; ?></span>
-              <span class="text-right pull-right"><i class="fa fa-fax fa-fw"></i> 0000000000</span>
+            <?php if(@$regd_no): ?>
+              <span class="pull-left" style="font-size:11pt;">Regd. No. <?php echo $regd_no; ?></span>
+            <?php endif; ?>
+            <?php if(@$business_contact): ?>
+              <span class="text-right pull-right"><i class="fa fa-phone-square fa-fw"></i> <?php echo @$business_contact; ?></span>
+            <?php endif; ?>
+            <?php if(@$email): ?>
+                <br/> <span class="pull-left" style="font-size:11pt;">Email:  <?php echo $email; ?></span>
+            <?php endif; ?>
+            <?php if(@$business_address): ?>
+            <br/> <span class="pull-left" style="font-size:11pt;"><?php echo @$business_address; ?></span>
+            <?php endif; ?>
+            <?php if(@$business_fax): ?>
+                  <span class="pull-left" style="font-size:11pt;"><?php echo @$business_fax; ?></span>
+            <?php endif; ?>
        </th>
 
       <tr>

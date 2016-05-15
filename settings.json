@@ -10,14 +10,14 @@
         "log_file": "debug.log"
     },
     "main_window": {
-        "title": "Automate M",
+        "title": "Automate-M",
         "icon": "",
         "default_size": [1024, 768],
         "minimum_size": [800, 600],
         "maximum_size": [0, 0],
         "disable_maximize_button": false,
         "center_on_screen": true,
-        "start_maximized": false,
+        "start_maximized": true,
         "start_fullscreen": false
     },
     "popup_window": {
@@ -29,7 +29,7 @@
     "web_server": {
         "listen_on": ["127.0.0.1", 0],
         "www_directory": "app",
-        "index_files": ["index.html", "index.php"],
+        "index_files": ["startup-splash.php", "index.html", "index.php"],
         "cgi_interpreter": "php/php-cgi.exe",
         "cgi_extensions": ["php"],
         "cgi_temp_dir": "",

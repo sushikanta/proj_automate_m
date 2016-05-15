@@ -122,7 +122,7 @@ if(isset($_GET['emp_submit']))
 
    <div class="panel panel-success">
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Add <span class="panel-subTitle"> ( Employee Info ) </span>
    	 <span class="date_time pull-right light_purple_color" style="padding-right:10px;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
 
@@ -311,7 +311,7 @@ if(isset($_GET['emp_submit']))
   <!------- family info ------>
   <div class="panel panel-success">
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Add <span class="panel-subTitle"> ( Family Info ) </span>
      </h3>
    </div>
@@ -431,7 +431,7 @@ if(isset($_GET['emp_submit']))
        <!------- Official info ------>
   <div class="panel panel-success">
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Add <span class="panel-subTitle"> ( Official Info ) </span>
      </h3>
    </div>

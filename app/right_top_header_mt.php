@@ -7,8 +7,8 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-  </button> 
-  <a class="navbar-brand" href="#" style="color:#FFF;"><img src="images/logo.png" style="width:60px; height: 47px;" alt="logo"></img> MT </a> 
+  </button>
+     <a class="navbar-brand" href="#" style="color:#FFF; line-height: 45px; padding-left: 10px">  MT </a>
   </div>  
    
 <nav class="nav-collapse collapse bs-navbar-collapse" role="navigation">  

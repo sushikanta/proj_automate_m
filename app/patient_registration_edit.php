@@ -230,7 +230,7 @@ $user_id = $_SESSION['user_id'];
 <!------------------- Panel 1---------------------->
 <div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Registration <span class="panel-subTitle"> ( Info ) </span>
        <span id="page_date" class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>
        <span id="show_date"></span></span>
@@ -342,7 +342,7 @@ $user_id = $_SESSION['user_id'];
 <!---------  Panel 2 - SOURCE/REFERRAL -------->
 	<div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Edit <span class="panel-subTitle"> ( Source Referral ) </span>
       </h3>
     </div>
@@ -473,7 +473,7 @@ $user_id = $_SESSION['user_id'];
   <!------------ Investigation table ------------>
   <div class="panel panel-success">
      <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Investigation <span class="panel-subTitle"> ( Cancel / Add )</span>
      </h3>
      </div>
@@ -601,7 +601,7 @@ while ($test = mysqli_fetch_array($result_test))
 <!---------  Panel 4 - RESET PAYMENT -->
   <div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Reset <span class="panel-subTitle"> ( Paid Amount ) </span>
       </h3>
       </div>

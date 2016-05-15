@@ -59,8 +59,16 @@
                     <?php echo form_input(['name'=>'business_title', 'class'=>'form-control', 'value'=>set_value('business_title')]);?>
                 </div>
                 <div class="form-group">
+                    <label for="hostname-label">Registration No.</label>
+                    <?php echo form_input(['name'=>'regd_no', 'class'=>'form-control', 'value'=>set_value('regd_no', '')]);?>
+                </div>
+                <div class="form-group">
                     <label for="hostname-label">Contact No.</label>
                     <?php echo form_input(['name'=>'business_contact', 'class'=>'form-control', 'value'=>set_value('business_contact', '')]);?>
+                </div>
+                <div class="form-group">
+                    <label for="hostname-label">Email ID</label>
+                    <?php echo form_input(['name'=>'email', 'class'=>'form-control', 'value'=>set_value('email', '')]);?>
                 </div>
                 <div class="form-group">
                     <label for="hostname-label">Address</label>
@@ -87,7 +95,7 @@
 -->
                 <div class="alert alert-warning">
                     <p>
-                        <strong>Default Login Credentials</strong><br> Usernames: super admin / admin / user 1<br>Password: password
+                       Preserve previously installed  database <input style="margin-left: 10px" checked type="checkbox" name="preserve_db" value="true">
                     </p>
                 </div>
                 <button id="btn_step1" class="btn btn-primary js-btn-install" type="submit">Install</button>

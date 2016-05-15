@@ -28,7 +28,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '3')
         
    <div class="panel panel-success">  
 	<div class="panel-heading no-print" style="color:#0D9707;">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Report - b/w dates Account Statement
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Report - b/w dates Account Statement
    <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span><a class="text-right pull-right navbar-link no-print" href="FD_report_ac_statement_ui.php" style="padding-left:30px;"><i class="fa fa-arrow-circle-right fa-lg"></i></a></span>
      <button onclick="printDiv('printableArea')" class="text-right pull-right no-print btn btn-small btn-primary" style="margin-right:40px; margin-top:-5px; width:100px;">Print</button>     
      </h3>

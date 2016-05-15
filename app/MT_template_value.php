@@ -106,7 +106,7 @@
  ?>
 <div class ="panel panel-success" style ="min-height:200px;">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
     Add <span class="panel_subTitle">( Report Value on <?php $template = showTemplate_Name($con, $tpn_id); echo $template; ?> )</span>
     </h3>
 	</div>

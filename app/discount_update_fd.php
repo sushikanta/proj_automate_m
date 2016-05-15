@@ -233,7 +233,7 @@ $pass_receipt_no = $_GET['receipt_no'];
 
 <div class="panel panel-success">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Patient Info
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Patient Info
     <span id="page_date" class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>
     <span id="show_date"></span></span>
     </h3>
@@ -321,7 +321,7 @@ $pass_receipt_no = $_GET['receipt_no'];
 <!------------------ Start Payment  --------------->
 <div class="panel panel-success">  
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Payment <span class="panel_subTitle"> ( Edit Tax / Discount )</span> </h3>      
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Payment <span class="panel_subTitle"> ( Edit Tax / Discount )</span> </h3>      
    </div>
    		
   <div class="panel-body">           

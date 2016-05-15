@@ -22,7 +22,7 @@ if(!isset($_SESSION['status'])){
     
    <div class="panel panel-success">  <!----------------------START price list Information-------------->
 	<div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Investigation <span class="panel-subTitle"> ( View Price ) </span>
      <button onClick="window.print();return false" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>

@@ -19,7 +19,7 @@
     $start = date("Y-m-d H:i:s", strtotime($_GET['start']));
     $stop =  date("Y-m-d H:i:s", strtotime($_GET['stop']));
 ?>
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
      Activities <span class='panel-subTitle'> ( Between <?php echo date("d/m/Y h:i:a", strtotime($start)); ?> -- <?php echo date("d/m/Y h:i:a", strtotime($stop)); ?> )</span>
    <button style="margin-left:10px; margin-top:-5px;" class="no-print btn btn-mini btn-primary pull-right" id="close_all">
       <i class="fa fa-times fa-lg"></i> Reset&nbsp;</button>

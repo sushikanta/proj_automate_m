@@ -208,7 +208,7 @@ if(isset($_GET['patient_id']) && $_GET['patient_id'] !="")
 
   <div class="panel panel-success">
      <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i>&nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i>&nbsp;&nbsp;&nbsp;
     Patient Profile <span class="panel_subTitle no-print"> ( Customer Information )</span>
 
     <!----- ERROR VALIDATION ------>
@@ -320,7 +320,7 @@ if(isset($_GET['patient_id']) && $_GET['patient_id'] !="")
   <div class="panel panel-success ">
 
   <div class="panel-heading light_purple_color">
-  <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Registration <span class="panel-subTitle">( Source, Referred by )</span></h3>
+  <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Registration <span class="panel-subTitle">( Source, Referred by )</span></h3>
   </div>
 
   <div class="panel-body">
@@ -417,7 +417,7 @@ if(isset($_GET['patient_id']) && $_GET['patient_id'] !="")
     <!----------- PANEL 3 - INVESTIGATION -------------->
     <div class="panel panel-success" id="test_div">
      <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Investigation </h3>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Investigation </h3>
      </div>
 
   	<div class="panel-body">
@@ -463,7 +463,7 @@ if(isset($_GET['patient_id']) && $_GET['patient_id'] !="")
 
     <!-------------- PANEL 4 Start Payment Details ------->
     <div class="panel panel-success">
-        <div class="panel-heading light_purple_color"><h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Payment </h3></div>
+        <div class="panel-heading light_purple_color"><h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Payment </h3></div>
 
         <div class="panel-body">
         <!---------------------1nd row -------------->

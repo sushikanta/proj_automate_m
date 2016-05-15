@@ -232,7 +232,7 @@ $pass_receipt_no = $_GET['receipt_no'];
 <!------------------- Panel 1---------------------->
 <div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Registration <span class="panel-subTitle"> ( Patient Info ) </span>
        <span id="page_date" class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>
        <span id="show_date"></span></span>
@@ -303,7 +303,7 @@ $pass_receipt_no = $_GET['receipt_no'];
 <!---------  Panel 2 - SOURCE/REFERRAL -------->
 	<div class="panel panel-success">
       <div class="panel-heading light_purple_color">
-      <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Edit <span class="panel-subTitle"> ( Source Referral ) </span>
       </h3>
     </div>	
@@ -413,7 +413,7 @@ $pass_receipt_no = $_GET['receipt_no'];
   <!------------ Investigation table ------------->
   <div class="panel panel-success">  
      <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      Investigation <span class="panel-subTitle"> ( Cancel / Add )</span>
      </h3>
      </div>
@@ -485,7 +485,7 @@ while ($test = mysqli_fetch_array($result_test))
 <!------------------ Start Payment  --------------->
 <div class="panel panel-success">  
    <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Payment <span class="panel_subTitle"> ( Edit Tax / Discount )</span> </h3>      
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Payment <span class="panel_subTitle"> ( Edit Tax / Discount )</span> </h3>      
    </div>
    		
       <div class="panel-body"> 

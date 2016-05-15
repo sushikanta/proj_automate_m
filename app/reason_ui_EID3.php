@@ -5,7 +5,10 @@
 <title>Reason</title>
 <?php require_once("css_bootstrap_header.php"); ?>
 
-<?php  if(isset( $_GET['go_eid3']))
+<?php
+
+
+  if(isset( $_GET['go_eid3']))
  		{
 	 	 resetCounter($con, 42, 'dd');  // reset audit id
 		 resetCounter($con, 29, 'dd');  // reset EXPENDITURE
@@ -106,6 +109,8 @@ if($check_refund =="Y")
   <div class="inv-main" id="div_hide">
 
 <?php
+
+
 if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 {
  $receipt_no = $_GET['receipt_no'];
@@ -115,7 +120,7 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
 <div class="panel panel-success">
     <div class="panel-heading light_purple_color">
     <h3 class="panel-title">
-    <i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+    <i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
     Reason <span class="panel-subTitle"> ( for Cancellation ) </span>
     <span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
     

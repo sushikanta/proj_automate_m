@@ -130,7 +130,7 @@ if(isset($_GET['receipt_no']) && $_GET['receipt_no'] !="")
  ?>
 <div class="panel panel-success" id="printableArea">
      <div class="panel-heading light_purple_color"><h3 class="panel-title">
-     <i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Registration</span>
+     <i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp; Registration</span>
      <button onclick="printDiv('printableArea')" class="no-print btn btn-mini btn-primary pull-right"><i class="fa fa-print fa-lg"></i> Print&nbsp;</button>
      </div>
 

@@ -22,7 +22,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '3')
         
 <div class="inv-main">
     <div class="panel panel-success">
-      <div class="panel-heading" style="color:#0D9707;"><h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Front Desk - Daily Expenditure
+      <div class="panel-heading" style="color:#0D9707;"><h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Front Desk - Daily Expenditure
       <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span><a class="text-right pull-right navbar-link no-print" style="padding-left:30px;" href="FD_report_ac_statement_ui.php"><i class="fa fa-arrow-circle-right fa-lg"></i></a></span>
       </h3>
     </div>    

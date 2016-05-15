@@ -30,7 +30,7 @@ if(isset($_GET['start']) && $_GET['start'] !='' && isset($_GET['stop']) && $_GET
   <div class="panel panel-success">
   
   <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle">All Payment without Staff and Walkin</span>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle">All Payment without Staff and Walkin</span>
    
    <button onclick="window.print()" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>

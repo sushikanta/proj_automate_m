@@ -178,7 +178,7 @@ LEFT JOIN district_tbl ON district_tbl.district_id = patient_info.PI_district_id
   
   <div class="panel panel-success">
   <div class="panel-heading" style="color:#0D9707;">
-  	<h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> New Registration <span class="panel_subTitle"> ( Old Patient ) </span>
+  	<h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> New Registration <span class="panel_subTitle"> ( Old Patient ) </span>
     <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span>
     
   <?php if ($msg =='1'){?>

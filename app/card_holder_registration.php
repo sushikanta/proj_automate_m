@@ -103,7 +103,7 @@ if($type==2)		// Normal Patient Add
   <div class="panel panel-success">
   <div class="panel-heading light_purple_color">
   	
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Registration <span class="panel-subTitle">( Card Holder ) </span>
+    <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Registration <span class="panel-subTitle">( Card Holder ) </span>
     <span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
     
     <div class="error pull-right" style="display:none; margin-right:34%; color:red; font-size:14px;">

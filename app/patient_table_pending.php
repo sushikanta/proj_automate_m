@@ -23,7 +23,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '3')
 <div class="inv-main">	
   <div class="panel panel-success">  <!----------------------START Patient list-------------->
 	<div class="panel-heading" style="color:#0D9707;">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Registration List - <span style="color:#000000; font-style:italic">( Pending )</span>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> Registration List - <span style="color:#000000; font-style:italic">( Pending )</span>
      	<span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
         
         

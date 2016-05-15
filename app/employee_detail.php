@@ -65,7 +65,7 @@ $result_table = mysqli_query($con, "SELECT `employee_tbl`.*, `marital_tbl`.`mari
  
 <div class="panel panel-success">  <!----------------------START Employee Information-------------->
     
-    <div class="panel-heading"><h3 class="panel-title" style="color:#0D9707;"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> Employee information
+    <div class="panel-heading"><h3 class="panel-title" style="color:#0D9707;"><i class="fa fa-cubes fa-fw fa-lg"></i> Employee information
     <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <span id="show_date"></span>
     <a class="text-right pull-right navbar-link no-print" href="employee_table.php" style="padding-left:30px;"><i class="fa fa-arrow-circle-right fa-lg"></i></a></span>
     </h3></div>		 

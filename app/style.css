@@ -675,3 +675,9 @@ display: block;
 .lnk-1, .lnk-1:hover{
 color: white;
 }
+
+
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    width: 19px;
+}

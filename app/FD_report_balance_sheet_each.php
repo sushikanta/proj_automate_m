@@ -29,7 +29,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '2' || $
    <div class="panel panel-success">
 
   <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> FD - <span class="panel-subTitle">  Dues Report</span>
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> FD - <span class="panel-subTitle">  Dues Report</span>
 
    <button onclick="printDiv('printableArea')" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-print fa-lg"></i> Print&nbsp;</button>

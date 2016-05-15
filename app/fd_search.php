@@ -15,7 +15,7 @@
   <div class="panel panel-success">
 
   <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
     Search  <span class="panel-subTitle"> ( Front Desk )</span>
     <button id="close_all" class="no-print btn btn-mini btn-primary pull-right" style="margin-left:10px; margin-top:-5px;">
       <i class="fa fa-times fa-lg"></i> Reset Here&nbsp;</button>

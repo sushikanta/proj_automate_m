@@ -175,7 +175,7 @@ if(isset($_GET['dr_id']) && $_GET['dr_id']!='')
 <form class="form-horizontal inv-form" role="form" method="get" action="#" id="form_panel1">
  <div class="panel panel-success"> <!-----------------START Doctor Information--------------->
      <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
    Add / Edit <span class="panel-subTitle"> ( Doctor ) </span>
   	<span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
     </h3>
@@ -375,7 +375,7 @@ if(isset($_GET['dr_id']) && $_GET['dr_id']!='')
 <!--------------- PANEL 2 Clinic  ------------>
 <div class="panel panel-success">
 	<div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
    Add / Edit <span class="panel-subTitle"> ( Clinic ) </span>
     </h3>
     </div>
@@ -440,7 +440,7 @@ while ($clinic = mysqli_fetch_array($result_clinic))
 <!------------------------START Doctor's Family section ------------------>
 <div class="panel panel-success">
  <div class="panel-heading light_purple_color">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
    Add / Edit <span class="panel-subTitle"> ( Family ) </span>
    </h3>
    </div>

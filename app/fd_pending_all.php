@@ -15,7 +15,7 @@
   <div class="panel panel-success">
 	<div class="panel-heading light_purple_color">
 
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
      List <span class="panel_subTitle no-print">
 	 <?php if(isset($_GET['tid']) && $_GET['tid'] =='1') { echo "( All Pendings )";}
 	 	   if(isset($_GET['tid']) && $_GET['tid'] =='2') { echo "( REGs Today )";}

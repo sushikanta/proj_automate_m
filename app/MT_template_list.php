@@ -25,7 +25,7 @@
 
 <div class="panel panel-success" style="min-height:500px;">
     <div class="panel-heading light_purple_color">
-    <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
+    <h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> &nbsp;&nbsp;&nbsp;
     Template <span class="panel_subTitle">( Investigation : <?php echo showTest_name($con, $tid); ?>, <?php echo showDeptName_test($con, $tid);?> )</span>
       	<span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>  <span id="show_date"></span></span>
 	</div>

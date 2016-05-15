@@ -25,7 +25,7 @@ if(isset($_GET['start']) && $_GET['start'] !='' && isset($_GET['stop']) && $_GET
    <div class="panel panel-success">  
 	<div class="panel-heading light_purple_color">
       <h3 class="panel-title">
-      <i class="fa fa-windows fa-spin fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
+      <i class="fa fa-cubes fa-fw fa-lg"></i> &nbsp;&nbsp;&nbsp;
       Report <span class="panel-subTitle"> ( No Discount, No Due EDs > Dr. wise ) </span>
       <span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i> <span id="show_date"></span></span>
       </h3>

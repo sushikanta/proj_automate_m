@@ -33,7 +33,7 @@ $pass_receipt_no = $_GET['receipt_no'];
   <div class="panel panel-success">
   
    <div class="panel-heading" style="color:#0D9707;">
-     <h3 class="panel-title"><i class="fa fa-windows fa-spin fa-fw fa-lg"></i> ED - Front Desk Paid History
+     <h3 class="panel-title"><i class="fa fa-cubes fa-fw fa-lg"></i> ED - Front Desk Paid History
      <span class="text-right pull-right" style="font-size:14px !important; color:#A400DF;"><i class="fa fa-calendar"></i> <?php echo date("jS F Y (l), h:i A", time());?><a class="text-right pull-right navbar-link no-print" href="FD_report_balance_sheet_all.php" style="padding-left:30px;"><i class="fa fa-arrow-circle-right fa-lg"></i></a></span>
      </h3>
    </div>                     

@@ -73,7 +73,7 @@ elseif(isset($_SESSION['user_dept_id']) && $_SESSION['user_dept_id'] == '22')
   <div class="inv-main">
 
 <div class ="panel panel-success" style ="min-height:500px;">
-    <div class="panel-heading light_purple_color"><h3 class="panel-title"><i class="fa fa-windows fa-spin fa-lg fa-fw"></i> Edit 
+    <div class="panel-heading light_purple_color"><h3 class="panel-title"><i class="fa fa-cubes fa-lg fa-fw"></i> Edit 
 		<span class="panel_subTitle">( Template Name - <?php echo showTemplate_Name($con, $tpn_id); ?> )</span>
       	<span class="text-right pull-right" style="font-size:14px !important;"><i class="fa fa-calendar"></i>  <span id="show_date"></span></span>
 	</div>    
